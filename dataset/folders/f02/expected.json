@@ -1,0 +1,310 @@
+{
+  "id": "f02",
+  "subset": "limpio",
+  "title": "Carpeta completa, isapre, con certificado de antigüedad",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Diego Ignacio Fuentes Riquelme",
+    "rut": "116.209.551-6"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2022-01-20",
+          "fields": {
+            "rut": "116.209.551-6",
+            "nombres": "DIEGO IGNACIO",
+            "apellidos": "FUENTES RIQUELME",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1987-11-03",
+            "fecha_emision": "2022-01-20",
+            "fecha_vencimiento": "2032-01-20"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Servicios Logísticos Pudahuel Ltda.",
+            "nombre": "Diego Ignacio Fuentes Riquelme",
+            "rut": "116.209.551-6",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2016-03-14",
+            "cargo": "Jefe de Bodega",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Isapre Vida Sur",
+            "base_imponible": 1813354,
+            "base_tributable": 1481691,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1480000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de producción",
+                "value": 120000
+              },
+              {
+                "label": "Colación",
+                "value": 60000
+              },
+              {
+                "label": "Movilización",
+                "value": 50000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 193848,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Vida Sur 7%",
+                "value": 126935,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 10880,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 21522,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Servicios Logísticos Pudahuel Ltda.",
+            "nombre": "Diego Ignacio Fuentes Riquelme",
+            "rut": "116.209.551-6",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2016-03-14",
+            "cargo": "Jefe de Bodega",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Isapre Vida Sur",
+            "base_imponible": 1813354,
+            "base_tributable": 1481691,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1480000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de producción",
+                "value": 120000
+              },
+              {
+                "label": "Colación",
+                "value": 60000
+              },
+              {
+                "label": "Movilización",
+                "value": 50000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 193848,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Vida Sur 7%",
+                "value": 126935,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 10880,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 21522,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Pehuén",
+            "nombre": "Diego Ignacio Fuentes Riquelme",
+            "rut": "116.209.551-6",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "PEH-2026-1102938",
+            "codigo_validador": "K8L2-MM41",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 187434,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 187434,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 187434,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 187434,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 187434,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 193848,
+                "rut_pagador": "177.204.118-3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-antiguedad.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "certificado-antiguedad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": null,
+          "fields": {
+            "empleador": "Servicios Logísticos Pudahuel Ltda.",
+            "rut_empleador": "177.204.118-3",
+            "empleado": "Diego Ignacio Fuentes Riquelme",
+            "rut": "116.209.551-6",
+            "cargo": "Jefe de Bodega",
+            "fecha_ingreso": "2016-03-14",
+            "antiguedad": "10 años y 7 meses",
+            "renta": 1813354
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Carpeta completa y coherente; el certificado de antigüedad confirma empleador, fecha de ingreso y renta."
+}

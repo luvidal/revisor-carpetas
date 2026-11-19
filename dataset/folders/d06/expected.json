@@ -1,0 +1,215 @@
+{
+  "id": "d06",
+  "subset": "dificil",
+  "title": "Falta el certificado AFP, liquidaciones fotografiadas",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Felipe Andrés Sandoval Rivas",
+    "rut": "120.134.586-K"
+  },
+  "files": [
+    {
+      "file": "cedula-girada.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG a 72 ppp, girado 90°",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2024-07-30",
+          "fields": {
+            "rut": "120.134.586-K",
+            "nombres": "FELIPE ANDRÉS",
+            "apellidos": "SANDOVAL RIVAS",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1997-07-17",
+            "fecha_emision": "2024-07-30",
+            "fecha_vencimiento": "2034-07-30"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 100 ppp, con perspectiva, con sombra, calidad 40",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Cafetería Grano de Oro SpA",
+            "nombre": "Felipe Andrés Sandoval Rivas",
+            "rut": "120.134.586-K",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2023-02-01",
+            "cargo": "Barista",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 830000,
+            "base_tributable": 672217,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 640000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 160000
+              },
+              {
+                "label": "Bono de asistencia",
+                "value": 30000
+              },
+              {
+                "label": "Colación",
+                "value": 30000
+              },
+              {
+                "label": "Movilización",
+                "value": 25000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 94703,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 58100,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 4980,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 100 ppp, con perspectiva, calidad 35, liquidación de otro formato (plantilla B)",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Cafetería Grano de Oro SpA",
+            "nombre": "Felipe Andrés Sandoval Rivas",
+            "rut": "120.134.586-K",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2023-02-01",
+            "cargo": "Barista",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 830000,
+            "base_tributable": 672217,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 640000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 160000
+              },
+              {
+                "label": "Bono de asistencia",
+                "value": 30000
+              },
+              {
+                "label": "Colación",
+                "value": 30000
+              },
+              {
+                "label": "Movilización",
+                "value": 25000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 94703,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 58100,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 4980,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-antiguedad-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 100 ppp, con perspectiva, con sombra, calidad 45",
+      "documents": [
+        {
+          "doctype": "certificado-antiguedad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": null,
+          "fields": {
+            "empleador": "Cafetería Grano de Oro SpA",
+            "rut_empleador": "176.973.104-7",
+            "empleado": "Felipe Andrés Sandoval Rivas",
+            "rut": "120.134.586-K",
+            "cargo": "Barista",
+            "fecha_ingreso": "2023-02-01",
+            "antiguedad": "3 años y 9 meses",
+            "renta": 830000
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "documento_faltante",
+      "doctype": "cotizaciones-afp",
+      "detail": "La carpeta no trae el certificado de cotizaciones AFP de los últimos 12 meses."
+    }
+  ],
+  "expectedDecision": "pedir_documento",
+  "decisionReason": "Falta un documento obligatorio; lo correcto es pedirlo al solicitante."
+}

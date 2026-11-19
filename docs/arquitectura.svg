@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3d4f66"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="40" y="52" font-size="28" font-weight="bold" fill="#1a2b45">revisor-carpetas</text>
+  <text x="40" y="80" font-size="16" fill="#55657a">Agente que revisa carpetas de crédito: lee con docs2json, valida, cruza, cita la política y decide</text>
+
+  <!-- Folder -->
+  <rect x="40" y="130" width="190" height="150" rx="10" fill="#f4f6f9" stroke="#9aa8ba" stroke-width="1.5"/>
+  <text x="135" y="160" font-size="16" font-weight="bold" fill="#1a2b45" text-anchor="middle">Carpeta</text>
+  <text x="135" y="186" font-size="13" fill="#3d4f66" text-anchor="middle">cédula, liquidaciones,</text>
+  <text x="135" y="204" font-size="13" fill="#3d4f66" text-anchor="middle">certificado AFP,</text>
+  <text x="135" y="222" font-size="13" fill="#3d4f66" text-anchor="middle">antigüedad</text>
+  <text x="135" y="252" font-size="12" fill="#b3261e" text-anchor="middle" font-weight="bold">MUESTRA SINTÉTICA</text>
+  <text x="135" y="268" font-size="11" fill="#55657a" text-anchor="middle">PDF, PNG, JPEG</text>
+
+  <!-- Agent box -->
+  <rect x="280" y="110" width="720" height="250" rx="14" fill="#eef4fb" stroke="#2f5d8a" stroke-width="2"/>
+  <text x="300" y="140" font-size="17" font-weight="bold" fill="#1a2b45">Agente · máquina de estados determinista</text>
+  <g font-size="13" fill="#1a2b45" text-anchor="middle">
+    <rect x="300" y="170" width="96" height="44" rx="8" fill="#ffffff" stroke="#2f5d8a"/>
+    <text x="348" y="197">recibida</text>
+    <rect x="416" y="170" width="96" height="44" rx="8" fill="#ffffff" stroke="#2f5d8a"/>
+    <text x="464" y="197">leyendo</text>
+    <rect x="532" y="170" width="96" height="44" rx="8" fill="#ffffff" stroke="#2f5d8a"/>
+    <text x="580" y="197">validando</text>
+    <rect x="648" y="170" width="96" height="44" rx="8" fill="#ffffff" stroke="#2f5d8a"/>
+    <text x="696" y="197">cruzando</text>
+    <rect x="764" y="170" width="110" height="44" rx="8" fill="#ffffff" stroke="#2f5d8a"/>
+    <text x="819" y="190">aplicando</text>
+    <text x="819" y="206">política</text>
+    <rect x="894" y="170" width="92" height="44" rx="8" fill="#2f5d8a" stroke="#2f5d8a"/>
+    <text x="940" y="197" fill="#ffffff" font-weight="bold">decidida</text>
+  </g>
+  <g stroke="#3d4f66" stroke-width="1.6" fill="none" marker-end="url(#arrow)">
+    <line x1="396" y1="192" x2="414" y2="192"/>
+    <line x1="512" y1="192" x2="530" y2="192"/>
+    <line x1="628" y1="192" x2="646" y2="192"/>
+    <line x1="744" y1="192" x2="762" y2="192"/>
+    <line x1="874" y1="192" x2="892" y2="192"/>
+    <path d="M464,214 C464,250 819,250 819,216" stroke-dasharray="5 4"/>
+  </g>
+  <text x="640" y="262" font-size="12" fill="#55657a" text-anchor="middle">si no se pudo leer nada, salta a la política y escala</text>
+  <g font-size="12.5" fill="#3d4f66" text-anchor="middle">
+    <text x="641" y="292">Valida RUT, vigencia y documentos mínimos</text>
+    <text x="641" y="311">Cruza sueldo con cotizaciones AFP (±2% o $ 1.000)</text>
+    <text x="641" y="330">Cada motivo: evidencia y regla citada</text>
+    <text x="641" y="349" font-weight="bold">Mismas entradas, misma decisión</text>
+  </g>
+
+  <!-- docs2json -->
+  <rect x="300" y="420" width="300" height="130" rx="10" fill="#fff7ec" stroke="#c77d1a" stroke-width="1.5"/>
+  <text x="450" y="450" font-size="16" font-weight="bold" fill="#5c3a06" text-anchor="middle">docs2json (API HTTP)</text>
+  <text x="450" y="474" font-size="13" fill="#5c3a06" text-anchor="middle">clasifica y extrae con Gemini</text>
+  <text x="450" y="498" font-size="12.5" fill="#5c3a06" text-anchor="middle">reintentos con espera exponencial y jitter;</text>
+  <text x="450" y="516" font-size="12.5" fill="#5c3a06" text-anchor="middle">tope por archivo y por carpeta</text>
+  <text x="450" y="538" font-size="12" fill="#8a5a14" text-anchor="middle">en vivo o en replay (respuestas grabadas)</text>
+  <line x1="464" y1="216" x2="464" y2="418" stroke="#c77d1a" stroke-width="1.6" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+  <!-- Policy search -->
+  <rect x="660" y="420" width="340" height="130" rx="10" fill="#eefaf1" stroke="#2e7d4a" stroke-width="1.5"/>
+  <text x="830" y="450" font-size="16" font-weight="bold" fill="#14462a" text-anchor="middle">Política escrita + búsqueda local</text>
+  <text x="830" y="474" font-size="13" fill="#14462a" text-anchor="middle">19 reglas con decisión y parámetros</text>
+  <text x="830" y="498" font-size="12.5" fill="#14462a" text-anchor="middle">BM25 + embeddings multilingües + RRF</text>
+  <text x="830" y="516" font-size="12.5" fill="#14462a" text-anchor="middle">sin LLM generativo; cita la regla</text>
+  <text x="830" y="538" font-size="12" fill="#2e7d4a" text-anchor="middle">índice precalculado, sin modelo al decidir</text>
+  <line x1="819" y1="216" x2="819" y2="418" stroke="#2e7d4a" stroke-width="1.6" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+  <!-- Decisions -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="1050" y="130" width="190" height="52" rx="10" fill="#e8f5ec" stroke="#2e7d4a"/>
+    <text x="1145" y="161" fill="#14462a" font-weight="bold">lista para el analista</text>
+    <rect x="1050" y="200" width="190" height="52" rx="10" fill="#fff7ec" stroke="#c77d1a"/>
+    <text x="1145" y="231" fill="#5c3a06" font-weight="bold">pedir un documento</text>
+    <rect x="1050" y="270" width="190" height="52" rx="10" fill="#fdecea" stroke="#b3261e"/>
+    <text x="1145" y="301" fill="#7a1a14" font-weight="bold">escalar a una persona</text>
+  </g>
+  <g stroke="#3d4f66" stroke-width="1.6" fill="none" marker-end="url(#arrow)">
+    <path d="M986,192 C1020,192 1020,156 1048,156"/>
+    <line x1="986" y1="200" x2="1048" y2="226"/>
+    <path d="M986,208 C1020,208 1020,296 1048,296"/>
+  </g>
+  <line x1="230" y1="205" x2="298" y2="205" stroke="#3d4f66" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Evals strip -->
+  <rect x="40" y="590" width="1200" height="100" rx="12" fill="#f7f4fb" stroke="#6a4c93" stroke-width="1.5"/>
+  <text x="60" y="620" font-size="16" font-weight="bold" fill="#3b2760">Evals (dataset sintético: 12 carpetas limpias y 6 difíciles con defectos plantados)</text>
+  <g font-size="13" fill="#3b2760">
+    <text x="60" y="648">Extracción: calidad separada de disponibilidad,</text>
+    <text x="60" y="668">consistencia entre pasadas, baseline y umbral</text>
+    <text x="470" y="648">Búsqueda: recall@k y MRR con consultas del agente</text>
+    <text x="470" y="668">y 34 preguntas de analista no ajustadas</text>
+    <text x="880" y="648">Punta a punta: decisión, defectos encontrados,</text>
+    <text x="880" y="668">falsos positivos, escalados por lectura</text>
+  </g>
+</svg>

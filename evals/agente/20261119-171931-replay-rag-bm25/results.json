@@ -1,0 +1,354 @@
+[
+  {
+    "folderId": "f01",
+    "subset": "limpio",
+    "title": "Carpeta completa, Fonasa, dos meses sin cotización",
+    "expected": "lista_para_analista",
+    "actual": "lista_para_analista",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "Sin motivos: carpeta completa y coherente."
+  },
+  {
+    "folderId": "f02",
+    "subset": "limpio",
+    "title": "Carpeta completa, isapre, con certificado de antigüedad",
+    "expected": "lista_para_analista",
+    "actual": "lista_para_analista",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 5,
+    "retries": 0,
+    "mainReason": "Sin motivos: carpeta completa y coherente."
+  },
+  {
+    "folderId": "f03",
+    "subset": "limpio",
+    "title": "Carpeta completa, ambas liquidaciones en un solo PDF",
+    "expected": "lista_para_analista",
+    "actual": "escalar_a_persona",
+    "correct": false,
+    "readingEscalation": true,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 3,
+    "retries": 0,
+    "mainReason": "La lectura de la liquidación (liquidaciones-2026-09-y-2026-10.pdf) vino con confianza 0, bajo el mínimo de 0,8: el dato no es confiable."
+  },
+  {
+    "folderId": "f04",
+    "subset": "limpio",
+    "title": "Cambio de empleador en el año, un mes sin cotizar entre trabajos",
+    "expected": "lista_para_analista",
+    "actual": "lista_para_analista",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 5,
+    "retries": 0,
+    "mainReason": "Sin motivos: carpeta completa y coherente."
+  },
+  {
+    "folderId": "f05",
+    "subset": "limpio",
+    "title": "Falta el certificado de cotizaciones AFP",
+    "expected": "pedir_documento",
+    "actual": "pedir_documento",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "pedir_documento",
+    "planted": [
+      "documento_faltante:cotizaciones-afp"
+    ],
+    "detected": [
+      "documento_faltante:cotizaciones-afp"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 3,
+    "retries": 0,
+    "mainReason": "Falta certificado de cotizaciones AFP de los últimos 12 meses."
+  },
+  {
+    "folderId": "f06",
+    "subset": "limpio",
+    "title": "Falta la liquidación de octubre",
+    "expected": "pedir_documento",
+    "actual": "pedir_documento",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "pedir_documento",
+    "planted": [
+      "documento_faltante:liquidaciones-sueldo"
+    ],
+    "detected": [
+      "documento_faltante:liquidaciones-sueldo"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 3,
+    "retries": 0,
+    "mainReason": "Falta liquidación de octubre de 2026."
+  },
+  {
+    "folderId": "f07",
+    "subset": "limpio",
+    "title": "Cédula vencida, residente extranjera",
+    "expected": "pedir_documento",
+    "actual": "pedir_documento",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "pedir_documento",
+    "planted": [
+      "documento_vencido:cedula-identidad"
+    ],
+    "detected": [
+      "documento_vencido:cedula-identidad"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "La cédula venció el 2026-08-14, antes de la fecha de revisión (2026-11-16)."
+  },
+  {
+    "folderId": "f08",
+    "subset": "limpio",
+    "title": "RUT distinto en la liquidación de octubre",
+    "expected": "escalar_a_persona",
+    "actual": "escalar_a_persona",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "escalar_a_persona",
+    "planted": [
+      "rut_distinto:liquidaciones-sueldo"
+    ],
+    "detected": [
+      "rut_distinto:liquidaciones-sueldo"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "La liquidación (liquidacion-2026-10.pdf) tiene el nombre del solicitante pero el RUT 115.983.704-8, distinto de 115.938.704-2 y con dígito verificador válido: posible error del emisor o alteración."
+  },
+  {
+    "folderId": "f09",
+    "subset": "limpio",
+    "title": "Certificado AFP de otra persona",
+    "expected": "pedir_documento",
+    "actual": "escalar_a_persona",
+    "correct": false,
+    "readingEscalation": false,
+    "withoutReadingIssues": "escalar_a_persona",
+    "planted": [
+      "rut_distinto:cotizaciones-afp"
+    ],
+    "detected": [
+      "rut_distinto:cotizaciones-afp"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "El certificado AFP (certificado-afp.pdf) es de otra persona: Javiera Antonia Vargas Espinoza, RUT 119.871.205-8. Se pide el documento del solicitante."
+  },
+  {
+    "folderId": "f10",
+    "subset": "limpio",
+    "title": "Sueldo de las liquidaciones no cuadra con las cotizaciones",
+    "expected": "escalar_a_persona",
+    "actual": "escalar_a_persona",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "escalar_a_persona",
+    "planted": [
+      "sueldo_no_cuadra:liquidaciones-sueldo"
+    ],
+    "detected": [
+      "sueldo_no_cuadra:liquidaciones-sueldo"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 5,
+    "retries": 0,
+    "mainReason": "La liquidación (liquidacion-2026-09.pdf) descuenta $ 298.828 de cotización AFP en septiembre de 2026, pero el certificado registra $ 141.748 pagados ese mes (tolerancia $ 2.835)."
+  },
+  {
+    "folderId": "f11",
+    "subset": "limpio",
+    "title": "Sueldo no cuadra y además falta la cédula",
+    "expected": "escalar_a_persona",
+    "actual": "escalar_a_persona",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "escalar_a_persona",
+    "planted": [
+      "documento_faltante:cedula-identidad",
+      "sueldo_no_cuadra:liquidaciones-sueldo"
+    ],
+    "detected": [
+      "documento_faltante:cedula-identidad",
+      "sueldo_no_cuadra:liquidaciones-sueldo"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 3,
+    "retries": 0,
+    "mainReason": "La liquidación (liquidacion-2026-09.pdf) descuenta $ 206.904 de cotización AFP en septiembre de 2026, pero el certificado registra $ 149.854 pagados ese mes (tolerancia $ 2.997)."
+  },
+  {
+    "folderId": "f12",
+    "subset": "limpio",
+    "title": "Carpeta completa, liquidación de septiembre fotografiada",
+    "expected": "lista_para_analista",
+    "actual": "lista_para_analista",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "Sin motivos: carpeta completa y coherente."
+  },
+  {
+    "folderId": "d01",
+    "subset": "dificil",
+    "title": "Carpeta completa, todo fotografiado o escaneado",
+    "expected": "lista_para_analista",
+    "actual": "lista_para_analista",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "Sin motivos: carpeta completa y coherente."
+  },
+  {
+    "folderId": "d02",
+    "subset": "dificil",
+    "title": "Carpeta completa, liquidaciones de otro formato y páginas giradas",
+    "expected": "lista_para_analista",
+    "actual": "escalar_a_persona",
+    "correct": false,
+    "readingEscalation": true,
+    "withoutReadingIssues": "lista_para_analista",
+    "planted": [],
+    "detected": [],
+    "missed": [],
+    "spurious": [],
+    "calls": 6,
+    "retries": 2,
+    "mainReason": "No se pudo leer liquidacion-2026-09.pdf después de 3 intento(s): 503 ai_timeout."
+  },
+  {
+    "folderId": "d03",
+    "subset": "dificil",
+    "title": "Sueldo no cuadra, con imágenes muy comprimidas",
+    "expected": "escalar_a_persona",
+    "actual": "escalar_a_persona",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "escalar_a_persona",
+    "planted": [
+      "sueldo_no_cuadra:liquidaciones-sueldo"
+    ],
+    "detected": [
+      "sueldo_no_cuadra:liquidaciones-sueldo"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "La liquidación (liquidacion-2026-09-comprimida.jpg) descuenta $ 254.781 de cotización AFP en septiembre de 2026, pero el certificado registra $ 158.433 pagados ese mes (tolerancia $ 3.169)."
+  },
+  {
+    "folderId": "d04",
+    "subset": "dificil",
+    "title": "RUT distinto en una liquidación escaneada de lado",
+    "expected": "escalar_a_persona",
+    "actual": "escalar_a_persona",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "escalar_a_persona",
+    "planted": [
+      "rut_distinto:liquidaciones-sueldo"
+    ],
+    "detected": [
+      "rut_distinto:liquidaciones-sueldo"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 6,
+    "retries": 2,
+    "mainReason": "No se pudo leer liquidacion-2026-09-escaneo.pdf después de 3 intento(s): 503 ai_timeout."
+  },
+  {
+    "folderId": "d05",
+    "subset": "dificil",
+    "title": "Cédula vencida fotografiada, liquidaciones en un solo escaneo",
+    "expected": "pedir_documento",
+    "actual": "escalar_a_persona",
+    "correct": false,
+    "readingEscalation": true,
+    "withoutReadingIssues": "pedir_documento",
+    "planted": [
+      "documento_vencido:cedula-identidad"
+    ],
+    "detected": [
+      "documento_vencido:cedula-identidad"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "La lectura de la liquidación (liquidaciones-2026-09-y-2026-10-escaneo.pdf) vino con confianza 0, bajo el mínimo de 0,8: el dato no es confiable."
+  },
+  {
+    "folderId": "d06",
+    "subset": "dificil",
+    "title": "Falta el certificado AFP, liquidaciones fotografiadas",
+    "expected": "pedir_documento",
+    "actual": "pedir_documento",
+    "correct": true,
+    "readingEscalation": false,
+    "withoutReadingIssues": "pedir_documento",
+    "planted": [
+      "documento_faltante:cotizaciones-afp"
+    ],
+    "detected": [
+      "documento_faltante:cotizaciones-afp"
+    ],
+    "missed": [],
+    "spurious": [],
+    "calls": 4,
+    "retries": 0,
+    "mainReason": "Falta certificado de cotizaciones AFP de los últimos 12 meses."
+  }
+]

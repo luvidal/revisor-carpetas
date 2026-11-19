@@ -1,0 +1,263 @@
+{
+  "id": "f11",
+  "subset": "limpio",
+  "title": "Sueldo no cuadra y además falta la cédula",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Paula Fernanda Gallardo Tapia",
+    "rut": "119.652.318-5"
+  },
+  "files": [
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Retail Andino SpA",
+            "nombre": "Paula Fernanda Gallardo Tapia",
+            "rut": "119.652.318-5",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2021-04-12",
+            "cargo": "Supervisora de Tienda",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1813354,
+            "base_tributable": 1468635,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1600000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 206904,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 126935,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 10880,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 20999,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Retail Andino SpA",
+            "nombre": "Paula Fernanda Gallardo Tapia",
+            "rut": "119.652.318-5",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2021-04-12",
+            "cargo": "Supervisora de Tienda",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1813354,
+            "base_tributable": 1468635,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1600000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 206904,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 126935,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 10880,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 20999,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Litoral",
+            "nombre": "Paula Fernanda Gallardo Tapia",
+            "rut": "119.652.318-5",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "LIT-2026-0158862",
+            "codigo_validador": "W6G1-OP38",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 149854,
+                "rut_pagador": "176.830.596-6"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "sueldo_no_cuadra",
+      "doctype": "liquidaciones-sueldo",
+      "detail": "Las liquidaciones declaran un sueldo base de $ 1.600.000; las cotizaciones AFP de los mismos meses corresponden a $ 1.100.000."
+    },
+    {
+      "type": "documento_faltante",
+      "doctype": "cedula-identidad",
+      "detail": "La carpeta no trae la cédula de identidad."
+    }
+  ],
+  "expectedDecision": "escalar_a_persona",
+  "decisionReason": "La señal de posible adulteración pesa más que el documento faltante: lo revisa una persona antes de pedir nada."
+}

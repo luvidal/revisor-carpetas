@@ -1,0 +1,35 @@
+{
+  "fromSession": "20261119-1651",
+  "createdAt": "2026-11-19T19:51:52.902Z",
+  "subset": "limpio",
+  "datasetFingerprint": "f5f7e2a4ef95531d",
+  "models": [
+    "gemini-3.8-flash"
+  ],
+  "headline": {
+    "availability": 0.9166666666666667,
+    "endToEndClassification": 0.9166666666666667,
+    "endToEndFieldAccuracy": 0.9095477386934674,
+    "classificationAccuracy": 1,
+    "fieldAccuracy": 1,
+    "fieldAccuracyByDoctype": {
+      "cedula-identidad": 1,
+      "certificado-antiguedad": 1,
+      "cotizaciones-afp": 1,
+      "liquidaciones-sueldo": 1
+    },
+    "splitRate": 1,
+    "latencyP50Ms": 15643,
+    "latencyP95Ms": 66964,
+    "consistency": 1
+  },
+  "thresholds": {
+    "classificationDrop": 0.021,
+    "fieldDrop": 0.02,
+    "doctypeFieldDrop": 0.05,
+    "availabilityDrop": 0.334,
+    "consistencyDrop": 0.05,
+    "latencyP95Increase": 0.5
+  },
+  "rationale": "Clasificación: se tolera perder hasta 2,1% (un documento de 48, o el doble de la variación medida entre corridas si es mayor). Campos en total: 2,0% (mínimo 2 puntos; la variación medida entre corridas fue 0,0%). Campos por tipo: 5,0% (mínimo 5 puntos, porque hay tipos con pocos documentos). Clasificación y campos se miden sobre los documentos que volvieron con datos. La disponibilidad (documentos con datos) solo avisa si cae más de 33,4%; igual que la consistencia y la latencia, depende del servidor y del momento, no de la calidad de la extracción."
+}

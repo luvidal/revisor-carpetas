@@ -1,0 +1,292 @@
+{
+  "id": "f08",
+  "subset": "limpio",
+  "title": "RUT distinto en la liquidación de octubre",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Ignacio Tomás Herrera Saavedra",
+    "rut": "115.938.704-2"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2020-12-11",
+          "fields": {
+            "rut": "115.938.704-2",
+            "nombres": "IGNACIO TOMÁS",
+            "apellidos": "HERRERA SAAVEDRA",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1985-03-25",
+            "fecha_emision": "2020-12-11",
+            "fecha_vencimiento": "2030-12-11"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Distribuidora Ferretera Maipo SpA",
+            "nombre": "Ignacio Tomás Herrera Saavedra",
+            "rut": "115.938.704-2",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2017-07-10",
+            "cargo": "Vendedor Técnico",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Isapre Vida Sur",
+            "base_imponible": 1623354,
+            "base_tributable": 1326442,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1200000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Comisiones por venta",
+                "value": 210000
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 45000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 173537,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Vida Sur 7%",
+                "value": 113635,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 9740,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 15312,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Distribuidora Ferretera Maipo SpA",
+            "nombre": "Ignacio Tomás Herrera Saavedra",
+            "rut": "115.983.704-8",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2017-07-10",
+            "cargo": "Vendedor Técnico",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Isapre Vida Sur",
+            "base_imponible": 1623354,
+            "base_tributable": 1326442,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1200000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Comisiones por venta",
+                "value": 210000
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 45000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 173537,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Vida Sur 7%",
+                "value": 113635,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 9740,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 15312,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Pehuén",
+            "nombre": "Ignacio Tomás Herrera Saavedra",
+            "rut": "115.938.704-2",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "PEH-2026-1209931",
+            "codigo_validador": "N1C7-EE80",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 173537,
+                "rut_pagador": "176.115.829-1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "rut_distinto",
+      "doctype": "liquidaciones-sueldo",
+      "file": "liquidacion-2026-10.pdf",
+      "detail": "La liquidación de octubre muestra el RUT 115.983.704-8 con el mismo nombre; la cédula y los demás documentos dicen 115.938.704-2."
+    }
+  ],
+  "expectedDecision": "escalar_a_persona",
+  "decisionReason": "Mismo nombre con otro RUT en un documento de ingresos: puede ser un error del empleador o una alteración. Lo revisa una persona."
+}

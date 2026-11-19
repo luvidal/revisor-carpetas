@@ -1,0 +1,277 @@
+{
+  "id": "d01",
+  "subset": "dificil",
+  "title": "Carpeta completa, todo fotografiado o escaneado",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Andrea Carolina Pino Sepúlveda",
+    "rut": "117.215.834-6"
+  },
+  "files": [
+    {
+      "file": "cedula-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 80 ppp, con perspectiva, con sombra, calidad 70",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2023-08-22",
+          "fields": {
+            "rut": "117.215.834-6",
+            "nombres": "ANDREA CAROLINA",
+            "apellidos": "PINO SEPÚLVEDA",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1990-02-14",
+            "fecha_emision": "2023-08-22",
+            "fecha_vencimiento": "2033-08-22"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 110 ppp, con perspectiva, con sombra, calidad 60",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Ferretería Industrial Los Andes SpA",
+            "nombre": "Andrea Carolina Pino Sepúlveda",
+            "rut": "117.215.834-6",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2018-11-05",
+            "cargo": "Encargada de Compras",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1393354,
+            "base_tributable": 1131125,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1180000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 156334,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 97535,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 8360,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 7499,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10-escaneo.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 80 ppp, con ruido",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Ferretería Industrial Los Andes SpA",
+            "nombre": "Andrea Carolina Pino Sepúlveda",
+            "rut": "117.215.834-6",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2018-11-05",
+            "cargo": "Encargada de Compras",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1393354,
+            "base_tributable": 1131125,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1180000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 156334,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 97535,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 8360,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 7499,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp-escaneo.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 100 ppp, con ruido, inclinado 4°",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Quillay",
+            "nombre": "Andrea Carolina Pino Sepúlveda",
+            "rut": "117.215.834-6",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "QLL-2026-0811450",
+            "codigo_validador": "M3P7-XK21",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 156334,
+                "rut_pagador": "176.884.215-5"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Carpeta completa y coherente; solo cambia cómo llegaron los documentos."
+}

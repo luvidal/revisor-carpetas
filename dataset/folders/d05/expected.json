@@ -1,0 +1,302 @@
+{
+  "id": "d05",
+  "subset": "dificil",
+  "title": "Cédula vencida fotografiada, liquidaciones en un solo escaneo",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Ana María Contreras Lillo",
+    "rut": "112.674.590-3"
+  },
+  "files": [
+    {
+      "file": "cedula-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 80 ppp, con perspectiva, con sombra, calidad 55",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2016-05-19",
+          "fields": {
+            "rut": "112.674.590-3",
+            "nombres": "ANA MARÍA",
+            "apellidos": "CONTRERAS LILLO",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1979-04-03",
+            "fecha_emision": "2016-05-19",
+            "fecha_vencimiento": "2026-05-19"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidaciones-2026-09-y-2026-10-escaneo.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 90 ppp, con ruido",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Colegio Particular San Esteban Ltda.",
+            "nombre": "Ana María Contreras Lillo",
+            "rut": "112.674.590-3",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2012-03-01",
+            "cargo": "Profesora de Matemáticas",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1728354,
+            "base_tributable": 1412238,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1420000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Asignación de perfeccionamiento",
+                "value": 95000
+              },
+              {
+                "label": "Movilización",
+                "value": 30000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 184761,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 120985,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 10370,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 18744,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        },
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 2,
+            "end": 2
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Colegio Particular San Esteban Ltda.",
+            "nombre": "Ana María Contreras Lillo",
+            "rut": "112.674.590-3",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2012-03-01",
+            "cargo": "Profesora de Matemáticas",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1728354,
+            "base_tributable": 1412238,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1420000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Asignación de perfeccionamiento",
+                "value": 95000
+              },
+              {
+                "label": "Movilización",
+                "value": 30000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 184761,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 120985,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 10370,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 18744,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp-escaneo-invertido.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 100 ppp, con ruido, girado 180°",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Pehuén",
+            "nombre": "Ana María Contreras Lillo",
+            "rut": "112.674.590-3",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "PEH-2026-1730589",
+            "codigo_validador": "C2Z8-RA47",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 184761,
+                "rut_pagador": "177.540.862-2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-antiguedad-escaneo.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 100 ppp, con ruido, inclinado 5°",
+      "documents": [
+        {
+          "doctype": "certificado-antiguedad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": null,
+          "fields": {
+            "empleador": "Colegio Particular San Esteban Ltda.",
+            "rut_empleador": "177.540.862-2",
+            "empleado": "Ana María Contreras Lillo",
+            "rut": "112.674.590-3",
+            "cargo": "Profesora de Matemáticas",
+            "fecha_ingreso": "2012-03-01",
+            "antiguedad": "14 años y 8 meses",
+            "renta": 1728354
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "documento_vencido",
+      "doctype": "cedula-identidad",
+      "file": "cedula-foto.jpg",
+      "detail": "La cédula venció el 19-05-2026, antes de la fecha de revisión (16-11-2026)."
+    }
+  ],
+  "expectedDecision": "pedir_documento",
+  "decisionReason": "La identidad no se puede acreditar con una cédula vencida; se pide la cédula vigente."
+}

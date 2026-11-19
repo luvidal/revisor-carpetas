@@ -1,0 +1,190 @@
+{
+  "id": "f05",
+  "subset": "limpio",
+  "title": "Falta el certificado de cotizaciones AFP",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Francisca Javiera Núñez Pizarro",
+    "rut": "118.725.390-6"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2025-03-17",
+          "fields": {
+            "rut": "118.725.390-6",
+            "nombres": "FRANCISCA JAVIERA",
+            "apellidos": "NÚÑEZ PIZARRO",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1993-02-11",
+            "fecha_emision": "2025-03-17",
+            "fecha_vencimiento": "2035-03-17"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Panadería y Pastelería El Trigal Ltda.",
+            "nombre": "Francisca Javiera Núñez Pizarro",
+            "rut": "118.725.390-6",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2020-10-05",
+            "cargo": "Administradora de Local",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1223354,
+            "base_tributable": 999602,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 950000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de cumplimiento",
+                "value": 60000
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 130777,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 85635,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 7340,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 2238,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Panadería y Pastelería El Trigal Ltda.",
+            "nombre": "Francisca Javiera Núñez Pizarro",
+            "rut": "118.725.390-6",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2020-10-05",
+            "cargo": "Administradora de Local",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1223354,
+            "base_tributable": 999602,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 950000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de cumplimiento",
+                "value": 60000
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 130777,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 85635,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 7340,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 2238,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "documento_faltante",
+      "doctype": "cotizaciones-afp",
+      "detail": "La carpeta no trae el certificado de cotizaciones AFP de los últimos 12 meses."
+    }
+  ],
+  "expectedDecision": "pedir_documento",
+  "decisionReason": "Falta un documento obligatorio; lo correcto es pedirlo al solicitante."
+}

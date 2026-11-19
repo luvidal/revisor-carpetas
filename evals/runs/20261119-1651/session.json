@@ -1,0 +1,17 @@
+{
+  "sessionId": "20261119-1651",
+  "createdAt": "2026-11-19T19:51:52.902Z",
+  "datasetFingerprint": "f5f7e2a4ef95531d",
+  "folders": null,
+  "subset": "limpio",
+  "runs": 2,
+  "concurrency": 4,
+  "baseUrl": "https://api.docs2json.cl",
+  "calls": {
+    "planned": 94,
+    "httpCalls": 100,
+    "rateLimited": 0,
+    "serverErrors": 13,
+    "networkErrors": 1
+  }
+}

@@ -1,0 +1,2643 @@
+{
+  "sessionId": "20261119-1651",
+  "createdAt": "2026-11-19T19:51:52.902Z",
+  "datasetFingerprint": "f5f7e2a4ef95531d",
+  "dataset": {
+    "folders": 12,
+    "files": 47,
+    "documents": 48
+  },
+  "runs": [
+    {
+      "runTag": "20261119-1651-c1",
+      "availability": {
+        "correct": 48,
+        "total": 48,
+        "rate": 1,
+        "requestFailed": 0,
+        "notReturned": 0,
+        "empty": 0
+      },
+      "silentFailures": [],
+      "classification": {
+        "correct": 48,
+        "total": 48,
+        "rate": 1,
+        "byDoctype": {
+          "cedula-identidad": {
+            "correct": 11,
+            "total": 11,
+            "rate": 1
+          },
+          "liquidaciones-sueldo": {
+            "correct": 23,
+            "total": 23,
+            "rate": 1
+          },
+          "cotizaciones-afp": {
+            "correct": 11,
+            "total": 11,
+            "rate": 1
+          },
+          "certificado-antiguedad": {
+            "correct": 3,
+            "total": 3,
+            "rate": 1
+          }
+        },
+        "confusion": {
+          "cedula-identidad": {
+            "cedula-identidad": 11
+          },
+          "liquidaciones-sueldo": {
+            "liquidaciones-sueldo": 23
+          },
+          "cotizaciones-afp": {
+            "cotizaciones-afp": 11
+          },
+          "certificado-antiguedad": {
+            "certificado-antiguedad": 3
+          }
+        }
+      },
+      "split": {
+        "correct": 47,
+        "total": 47,
+        "rate": 1
+      },
+      "fields": {
+        "overall": {
+          "total": 597,
+          "correct": 597,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "accuracy": 1,
+          "precision": 1,
+          "recall": 1
+        },
+        "byDoctype": {
+          "cedula-identidad": {
+            "total": 99,
+            "correct": 99,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo": {
+            "total": 345,
+            "correct": 345,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp": {
+            "total": 132,
+            "correct": 132,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad": {
+            "total": 21,
+            "correct": 21,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          }
+        },
+        "byField": {
+          "cedula-identidad.rut": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.nombres": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.apellidos": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.nacionalidad": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.sexo": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.fecha_nacimiento": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.fecha_emision": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.fecha_vencimiento": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.docdate": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.rut": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.nombre": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.empleador": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.periodo": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.dias_trabajados": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.fecha_ingreso": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.cargo": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.institucion_previsional": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.institucion_salud": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.base_imponible": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.base_tributable": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.descuento_afp": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.haberes": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.descuentos": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.docdate": {
+            "total": 23,
+            "correct": 23,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.rut": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.nombre": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.afp": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.periodo_desde": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.periodo_hasta": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.folio_certificacion": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.codigo_validador": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.meses_laguna": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.lagunas_largas": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.empleador_anterior": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.cotizaciones": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.docdate": {
+            "total": 11,
+            "correct": 11,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.rut": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.empleado": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.empleador": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.rut_empleador": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.cargo": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.fecha_ingreso": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.renta": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          }
+        }
+      },
+      "failures": {
+        "explicitFiles": 0,
+        "explicitByCause": {},
+        "silentDocuments": 0,
+        "failedAttempts": 8,
+        "failedAttemptsByCause": {
+          "503 ai_timeout": 7,
+          "504 del proxy": 1
+        },
+        "recoveredByRetry": 8
+      },
+      "endToEnd": {
+        "classification": {
+          "correct": 48,
+          "total": 48,
+          "rate": 1
+        },
+        "fields": {
+          "correct": 597,
+          "total": 597,
+          "rate": 1
+        }
+      },
+      "rows": {
+        "liquidaciones-sueldo.haberes": {
+          "expected": 100,
+          "predicted": 100,
+          "matched": 100,
+          "precision": 1,
+          "recall": 1
+        },
+        "liquidaciones-sueldo.descuentos": {
+          "expected": 92,
+          "predicted": 92,
+          "matched": 92,
+          "precision": 1,
+          "recall": 1
+        },
+        "cotizaciones-afp.cotizaciones": {
+          "expected": 129,
+          "predicted": 129,
+          "matched": 129,
+          "precision": 1,
+          "recall": 1
+        }
+      },
+      "latency": {
+        "n": 47,
+        "p50": 19872,
+        "p95": 69500,
+        "mean": 28191,
+        "max": 100124,
+        "byMimeType": {
+          "image/png": {
+            "n": 12,
+            "p50": 21348,
+            "p95": 79856
+          },
+          "application/pdf": {
+            "n": 35,
+            "p50": 16391,
+            "p95": 69500
+          }
+        }
+      },
+      "calls": {
+        "files": 47,
+        "ok": 47,
+        "failed": 0,
+        "httpCalls": 55
+      },
+      "models": [
+        "gemini-3.8-flash"
+      ],
+      "catalogVersions": [
+        "b8d602b58811"
+      ]
+    },
+    {
+      "runTag": "20261119-1651-c2",
+      "availability": {
+        "correct": 40,
+        "total": 48,
+        "rate": 0.8333333333333334,
+        "requestFailed": 8,
+        "notReturned": 0,
+        "empty": 0
+      },
+      "silentFailures": [],
+      "classification": {
+        "correct": 40,
+        "total": 40,
+        "rate": 1,
+        "byDoctype": {
+          "cedula-identidad": {
+            "correct": 10,
+            "total": 10,
+            "rate": 1
+          },
+          "liquidaciones-sueldo": {
+            "correct": 18,
+            "total": 18,
+            "rate": 1
+          },
+          "cotizaciones-afp": {
+            "correct": 9,
+            "total": 9,
+            "rate": 1
+          },
+          "certificado-antiguedad": {
+            "correct": 3,
+            "total": 3,
+            "rate": 1
+          }
+        },
+        "confusion": {
+          "cedula-identidad": {
+            "cedula-identidad": 10,
+            "(error HTTP)": 1
+          },
+          "liquidaciones-sueldo": {
+            "liquidaciones-sueldo": 18,
+            "(error HTTP)": 5
+          },
+          "cotizaciones-afp": {
+            "cotizaciones-afp": 9,
+            "(error HTTP)": 2
+          },
+          "certificado-antiguedad": {
+            "certificado-antiguedad": 3
+          }
+        }
+      },
+      "split": {
+        "correct": 39,
+        "total": 39,
+        "rate": 1
+      },
+      "fields": {
+        "overall": {
+          "total": 489,
+          "correct": 489,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "accuracy": 1,
+          "precision": 1,
+          "recall": 1
+        },
+        "byDoctype": {
+          "cedula-identidad": {
+            "total": 90,
+            "correct": 90,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo": {
+            "total": 270,
+            "correct": 270,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp": {
+            "total": 108,
+            "correct": 108,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad": {
+            "total": 21,
+            "correct": 21,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          }
+        },
+        "byField": {
+          "cedula-identidad.rut": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.nombres": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.apellidos": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.nacionalidad": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.sexo": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.fecha_nacimiento": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.fecha_emision": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.fecha_vencimiento": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cedula-identidad.docdate": {
+            "total": 10,
+            "correct": 10,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.rut": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.nombre": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.empleador": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.periodo": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.dias_trabajados": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.fecha_ingreso": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.cargo": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.institucion_previsional": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.institucion_salud": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.base_imponible": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.base_tributable": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.descuento_afp": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.haberes": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.descuentos": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "liquidaciones-sueldo.docdate": {
+            "total": 18,
+            "correct": 18,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.rut": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.nombre": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.afp": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.periodo_desde": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.periodo_hasta": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.folio_certificacion": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.codigo_validador": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.meses_laguna": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.lagunas_largas": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.empleador_anterior": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.cotizaciones": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "cotizaciones-afp.docdate": {
+            "total": 9,
+            "correct": 9,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.rut": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.empleado": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.empleador": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.rut_empleador": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.cargo": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.fecha_ingreso": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          },
+          "certificado-antiguedad.renta": {
+            "total": 3,
+            "correct": 3,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "accuracy": 1,
+            "precision": 1,
+            "recall": 1
+          }
+        }
+      },
+      "failures": {
+        "explicitFiles": 8,
+        "explicitByCause": {
+          "503 ai_timeout": 1,
+          "no leído (tope de llamadas)": 7
+        },
+        "silentDocuments": 0,
+        "failedAttempts": 5,
+        "failedAttemptsByCause": {
+          "error de red": 1,
+          "503 ai_timeout": 4
+        },
+        "recoveredByRetry": 3
+      },
+      "endToEnd": {
+        "classification": {
+          "correct": 40,
+          "total": 48,
+          "rate": 0.8333333333333334
+        },
+        "fields": {
+          "correct": 489,
+          "total": 597,
+          "rate": 0.8190954773869347
+        }
+      },
+      "rows": {
+        "liquidaciones-sueldo.haberes": {
+          "expected": 79,
+          "predicted": 79,
+          "matched": 79,
+          "precision": 1,
+          "recall": 1
+        },
+        "liquidaciones-sueldo.descuentos": {
+          "expected": 72,
+          "predicted": 72,
+          "matched": 72,
+          "precision": 1,
+          "recall": 1
+        },
+        "cotizaciones-afp.cotizaciones": {
+          "expected": 105,
+          "predicted": 105,
+          "matched": 105,
+          "precision": 1,
+          "recall": 1
+        }
+      },
+      "latency": {
+        "n": 39,
+        "p50": 11414,
+        "p95": 64428,
+        "mean": 21304,
+        "max": 98726,
+        "byMimeType": {
+          "image/png": {
+            "n": 10,
+            "p50": 15234,
+            "p95": 62682
+          },
+          "application/pdf": {
+            "n": 29,
+            "p50": 10655,
+            "p95": 64428
+          }
+        }
+      },
+      "calls": {
+        "files": 47,
+        "ok": 39,
+        "failed": 8,
+        "httpCalls": 44
+      },
+      "models": [
+        "gemini-3.8-flash"
+      ],
+      "catalogVersions": [
+        "b8d602b58811"
+      ]
+    }
+  ],
+  "consistency": {
+    "availabilityMismatch": 8,
+    "classification": {
+      "same": 40,
+      "total": 40,
+      "rate": 1
+    },
+    "fields": {
+      "same": 489,
+      "total": 489,
+      "rate": 1,
+      "byDoctype": {
+        "cedula-identidad": {
+          "same": 90,
+          "total": 90,
+          "rate": 1
+        },
+        "liquidaciones-sueldo": {
+          "same": 270,
+          "total": 270,
+          "rate": 1
+        },
+        "cotizaciones-afp": {
+          "same": 108,
+          "total": 108,
+          "rate": 1
+        },
+        "certificado-antiguedad": {
+          "same": 21,
+          "total": 21,
+          "rate": 1
+        }
+      }
+    },
+    "correctness": {
+      "bothCorrect": 489,
+      "bothWrong": 0,
+      "flaky": 0
+    },
+    "unstable": []
+  },
+  "headline": {
+    "availability": 0.9166666666666667,
+    "endToEndClassification": 0.9166666666666667,
+    "endToEndFieldAccuracy": 0.9095477386934674,
+    "classificationAccuracy": 1,
+    "fieldAccuracy": 1,
+    "fieldAccuracyByDoctype": {
+      "cedula-identidad": 1,
+      "certificado-antiguedad": 1,
+      "cotizaciones-afp": 1,
+      "liquidaciones-sueldo": 1
+    },
+    "splitRate": 1,
+    "latencyP50Ms": 15643,
+    "latencyP95Ms": 66964,
+    "consistency": 1
+  },
+  "bySubset": {
+    "limpio": {
+      "datasetFingerprint": "f5f7e2a4ef95531d",
+      "dataset": {
+        "folders": 12,
+        "files": 47,
+        "documents": 48
+      },
+      "runs": [
+        {
+          "runTag": "20261119-1651-c1",
+          "availability": {
+            "correct": 48,
+            "total": 48,
+            "rate": 1,
+            "requestFailed": 0,
+            "notReturned": 0,
+            "empty": 0
+          },
+          "silentFailures": [],
+          "classification": {
+            "correct": 48,
+            "total": 48,
+            "rate": 1,
+            "byDoctype": {
+              "cedula-identidad": {
+                "correct": 11,
+                "total": 11,
+                "rate": 1
+              },
+              "liquidaciones-sueldo": {
+                "correct": 23,
+                "total": 23,
+                "rate": 1
+              },
+              "cotizaciones-afp": {
+                "correct": 11,
+                "total": 11,
+                "rate": 1
+              },
+              "certificado-antiguedad": {
+                "correct": 3,
+                "total": 3,
+                "rate": 1
+              }
+            },
+            "confusion": {
+              "cedula-identidad": {
+                "cedula-identidad": 11
+              },
+              "liquidaciones-sueldo": {
+                "liquidaciones-sueldo": 23
+              },
+              "cotizaciones-afp": {
+                "cotizaciones-afp": 11
+              },
+              "certificado-antiguedad": {
+                "certificado-antiguedad": 3
+              }
+            }
+          },
+          "split": {
+            "correct": 47,
+            "total": 47,
+            "rate": 1
+          },
+          "fields": {
+            "overall": {
+              "total": 597,
+              "correct": 597,
+              "wrong": 0,
+              "missing": 0,
+              "spurious": 0,
+              "accuracy": 1,
+              "precision": 1,
+              "recall": 1
+            },
+            "byDoctype": {
+              "cedula-identidad": {
+                "total": 99,
+                "correct": 99,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo": {
+                "total": 345,
+                "correct": 345,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp": {
+                "total": 132,
+                "correct": 132,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad": {
+                "total": 21,
+                "correct": 21,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              }
+            },
+            "byField": {
+              "cedula-identidad.rut": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.nombres": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.apellidos": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.nacionalidad": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.sexo": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.fecha_nacimiento": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.fecha_emision": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.fecha_vencimiento": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.docdate": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.rut": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.nombre": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.empleador": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.periodo": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.dias_trabajados": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.fecha_ingreso": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.cargo": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.institucion_previsional": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.institucion_salud": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.base_imponible": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.base_tributable": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.descuento_afp": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.haberes": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.descuentos": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.docdate": {
+                "total": 23,
+                "correct": 23,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.rut": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.nombre": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.afp": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.periodo_desde": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.periodo_hasta": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.folio_certificacion": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.codigo_validador": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.meses_laguna": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.lagunas_largas": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.empleador_anterior": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.cotizaciones": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.docdate": {
+                "total": 11,
+                "correct": 11,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.rut": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.empleado": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.empleador": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.rut_empleador": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.cargo": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.fecha_ingreso": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.renta": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              }
+            }
+          },
+          "failures": {
+            "explicitFiles": 0,
+            "explicitByCause": {},
+            "silentDocuments": 0,
+            "failedAttempts": 8,
+            "failedAttemptsByCause": {
+              "503 ai_timeout": 7,
+              "504 del proxy": 1
+            },
+            "recoveredByRetry": 8
+          },
+          "endToEnd": {
+            "classification": {
+              "correct": 48,
+              "total": 48,
+              "rate": 1
+            },
+            "fields": {
+              "correct": 597,
+              "total": 597,
+              "rate": 1
+            }
+          },
+          "rows": {
+            "liquidaciones-sueldo.haberes": {
+              "expected": 100,
+              "predicted": 100,
+              "matched": 100,
+              "precision": 1,
+              "recall": 1
+            },
+            "liquidaciones-sueldo.descuentos": {
+              "expected": 92,
+              "predicted": 92,
+              "matched": 92,
+              "precision": 1,
+              "recall": 1
+            },
+            "cotizaciones-afp.cotizaciones": {
+              "expected": 129,
+              "predicted": 129,
+              "matched": 129,
+              "precision": 1,
+              "recall": 1
+            }
+          },
+          "latency": {
+            "n": 47,
+            "p50": 19872,
+            "p95": 69500,
+            "mean": 28191,
+            "max": 100124,
+            "byMimeType": {
+              "image/png": {
+                "n": 12,
+                "p50": 21348,
+                "p95": 79856
+              },
+              "application/pdf": {
+                "n": 35,
+                "p50": 16391,
+                "p95": 69500
+              }
+            }
+          },
+          "calls": {
+            "files": 47,
+            "ok": 47,
+            "failed": 0,
+            "httpCalls": 55
+          },
+          "models": [
+            "gemini-3.8-flash"
+          ],
+          "catalogVersions": [
+            "b8d602b58811"
+          ]
+        },
+        {
+          "runTag": "20261119-1651-c2",
+          "availability": {
+            "correct": 40,
+            "total": 48,
+            "rate": 0.8333333333333334,
+            "requestFailed": 8,
+            "notReturned": 0,
+            "empty": 0
+          },
+          "silentFailures": [],
+          "classification": {
+            "correct": 40,
+            "total": 40,
+            "rate": 1,
+            "byDoctype": {
+              "cedula-identidad": {
+                "correct": 10,
+                "total": 10,
+                "rate": 1
+              },
+              "liquidaciones-sueldo": {
+                "correct": 18,
+                "total": 18,
+                "rate": 1
+              },
+              "cotizaciones-afp": {
+                "correct": 9,
+                "total": 9,
+                "rate": 1
+              },
+              "certificado-antiguedad": {
+                "correct": 3,
+                "total": 3,
+                "rate": 1
+              }
+            },
+            "confusion": {
+              "cedula-identidad": {
+                "cedula-identidad": 10,
+                "(error HTTP)": 1
+              },
+              "liquidaciones-sueldo": {
+                "liquidaciones-sueldo": 18,
+                "(error HTTP)": 5
+              },
+              "cotizaciones-afp": {
+                "cotizaciones-afp": 9,
+                "(error HTTP)": 2
+              },
+              "certificado-antiguedad": {
+                "certificado-antiguedad": 3
+              }
+            }
+          },
+          "split": {
+            "correct": 39,
+            "total": 39,
+            "rate": 1
+          },
+          "fields": {
+            "overall": {
+              "total": 489,
+              "correct": 489,
+              "wrong": 0,
+              "missing": 0,
+              "spurious": 0,
+              "accuracy": 1,
+              "precision": 1,
+              "recall": 1
+            },
+            "byDoctype": {
+              "cedula-identidad": {
+                "total": 90,
+                "correct": 90,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo": {
+                "total": 270,
+                "correct": 270,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp": {
+                "total": 108,
+                "correct": 108,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad": {
+                "total": 21,
+                "correct": 21,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              }
+            },
+            "byField": {
+              "cedula-identidad.rut": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.nombres": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.apellidos": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.nacionalidad": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.sexo": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.fecha_nacimiento": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.fecha_emision": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.fecha_vencimiento": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cedula-identidad.docdate": {
+                "total": 10,
+                "correct": 10,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.rut": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.nombre": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.empleador": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.periodo": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.dias_trabajados": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.fecha_ingreso": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.cargo": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.institucion_previsional": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.institucion_salud": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.base_imponible": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.base_tributable": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.descuento_afp": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.haberes": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.descuentos": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "liquidaciones-sueldo.docdate": {
+                "total": 18,
+                "correct": 18,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.rut": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.nombre": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.afp": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.periodo_desde": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.periodo_hasta": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.folio_certificacion": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.codigo_validador": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.meses_laguna": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.lagunas_largas": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.empleador_anterior": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.cotizaciones": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "cotizaciones-afp.docdate": {
+                "total": 9,
+                "correct": 9,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.rut": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.empleado": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.empleador": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.rut_empleador": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.cargo": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.fecha_ingreso": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              },
+              "certificado-antiguedad.renta": {
+                "total": 3,
+                "correct": 3,
+                "wrong": 0,
+                "missing": 0,
+                "spurious": 0,
+                "accuracy": 1,
+                "precision": 1,
+                "recall": 1
+              }
+            }
+          },
+          "failures": {
+            "explicitFiles": 8,
+            "explicitByCause": {
+              "503 ai_timeout": 1,
+              "no leído (tope de llamadas)": 7
+            },
+            "silentDocuments": 0,
+            "failedAttempts": 5,
+            "failedAttemptsByCause": {
+              "error de red": 1,
+              "503 ai_timeout": 4
+            },
+            "recoveredByRetry": 3
+          },
+          "endToEnd": {
+            "classification": {
+              "correct": 40,
+              "total": 48,
+              "rate": 0.8333333333333334
+            },
+            "fields": {
+              "correct": 489,
+              "total": 597,
+              "rate": 0.8190954773869347
+            }
+          },
+          "rows": {
+            "liquidaciones-sueldo.haberes": {
+              "expected": 79,
+              "predicted": 79,
+              "matched": 79,
+              "precision": 1,
+              "recall": 1
+            },
+            "liquidaciones-sueldo.descuentos": {
+              "expected": 72,
+              "predicted": 72,
+              "matched": 72,
+              "precision": 1,
+              "recall": 1
+            },
+            "cotizaciones-afp.cotizaciones": {
+              "expected": 105,
+              "predicted": 105,
+              "matched": 105,
+              "precision": 1,
+              "recall": 1
+            }
+          },
+          "latency": {
+            "n": 39,
+            "p50": 11414,
+            "p95": 64428,
+            "mean": 21304,
+            "max": 98726,
+            "byMimeType": {
+              "image/png": {
+                "n": 10,
+                "p50": 15234,
+                "p95": 62682
+              },
+              "application/pdf": {
+                "n": 29,
+                "p50": 10655,
+                "p95": 64428
+              }
+            }
+          },
+          "calls": {
+            "files": 47,
+            "ok": 39,
+            "failed": 8,
+            "httpCalls": 44
+          },
+          "models": [
+            "gemini-3.8-flash"
+          ],
+          "catalogVersions": [
+            "b8d602b58811"
+          ]
+        }
+      ],
+      "consistency": {
+        "availabilityMismatch": 8,
+        "classification": {
+          "same": 40,
+          "total": 40,
+          "rate": 1
+        },
+        "fields": {
+          "same": 489,
+          "total": 489,
+          "rate": 1,
+          "byDoctype": {
+            "cedula-identidad": {
+              "same": 90,
+              "total": 90,
+              "rate": 1
+            },
+            "liquidaciones-sueldo": {
+              "same": 270,
+              "total": 270,
+              "rate": 1
+            },
+            "cotizaciones-afp": {
+              "same": 108,
+              "total": 108,
+              "rate": 1
+            },
+            "certificado-antiguedad": {
+              "same": 21,
+              "total": 21,
+              "rate": 1
+            }
+          }
+        },
+        "correctness": {
+          "bothCorrect": 489,
+          "bothWrong": 0,
+          "flaky": 0
+        },
+        "unstable": []
+      },
+      "headline": {
+        "availability": 0.9166666666666667,
+        "endToEndClassification": 0.9166666666666667,
+        "endToEndFieldAccuracy": 0.9095477386934674,
+        "classificationAccuracy": 1,
+        "fieldAccuracy": 1,
+        "fieldAccuracyByDoctype": {
+          "cedula-identidad": 1,
+          "certificado-antiguedad": 1,
+          "cotizaciones-afp": 1,
+          "liquidaciones-sueldo": 1
+        },
+        "splitRate": 1,
+        "latencyP50Ms": 15643,
+        "latencyP95Ms": 66964,
+        "consistency": 1
+      }
+    }
+  },
+  "calls": {
+    "planned": 94,
+    "httpCalls": 100,
+    "rateLimited": 0,
+    "serverErrors": 13,
+    "networkErrors": 1
+  }
+}

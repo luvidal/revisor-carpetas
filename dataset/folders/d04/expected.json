@@ -1,0 +1,292 @@
+{
+  "id": "d04",
+  "subset": "dificil",
+  "title": "RUT distinto en una liquidación escaneada de lado",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Cristóbal Ignacio Navarro Fuentealba",
+    "rut": "114.987.326-7"
+  },
+  "files": [
+    {
+      "file": "cedula-foto.png",
+      "mimeType": "image/png",
+      "rendering": "foto PNG a 80 ppp, con perspectiva, con sombra",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2020-09-08",
+          "fields": {
+            "rut": "114.987.326-7",
+            "nombres": "CRISTÓBAL IGNACIO",
+            "apellidos": "NAVARRO FUENTEALBA",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1983-10-21",
+            "fecha_emision": "2020-09-08",
+            "fecha_vencimiento": "2030-09-08"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09-escaneo.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 90 ppp, con ruido, inclinado 3°, liquidación de otro formato (plantilla B)",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Constructora Pacífico Norte SpA",
+            "nombre": "Cristóbal Ignacio Navarro Fuentealba",
+            "rut": "114.987.326-7",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2016-08-16",
+            "cargo": "Capataz",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1303354,
+            "base_tributable": 1058063,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 980000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Horas extras",
+                "value": 110000
+              },
+              {
+                "label": "Colación",
+                "value": 45000
+              },
+              {
+                "label": "Movilización",
+                "value": 35000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 146236,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 91235,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 7820,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 4577,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10-escaneo-girado.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 100 ppp, con ruido, girado 90°",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Constructora Pacífico Norte SpA",
+            "nombre": "Cristóbal Ignacio Navarro Fuentealba",
+            "rut": "114.978.326-8",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2016-08-16",
+            "cargo": "Capataz",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1303354,
+            "base_tributable": 1058063,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 980000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Horas extras",
+                "value": 110000
+              },
+              {
+                "label": "Colación",
+                "value": 45000
+              },
+              {
+                "label": "Movilización",
+                "value": 35000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 146236,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 91235,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 7820,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 4577,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp-foto.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "foto JPEG a 110 ppp, con perspectiva, con sombra, calidad 50",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Quillay",
+            "nombre": "Cristóbal Ignacio Navarro Fuentealba",
+            "rut": "114.987.326-7",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "QLL-2026-0904417",
+            "codigo_validador": "J6V1-BS84",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 146236,
+                "rut_pagador": "176.590.417-6"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "rut_distinto",
+      "doctype": "liquidaciones-sueldo",
+      "file": "liquidacion-2026-10-escaneo-girado.pdf",
+      "detail": "La liquidación de octubre muestra el RUT 114.978.326-8 con el mismo nombre; la cédula y los demás documentos dicen 114.987.326-7."
+    }
+  ],
+  "expectedDecision": "escalar_a_persona",
+  "decisionReason": "Mismo nombre con otro RUT en un documento de ingresos: puede ser un error o una alteración. Lo revisa una persona."
+}

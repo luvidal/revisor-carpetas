@@ -1,0 +1,29 @@
+name: CI
+
+# Typecheck and unit tests only. No secrets are configured, so CI cannot call
+# the paid docs2json API; real eval runs are manual (npm run evals).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      # onnxruntime-node (used only to build the policy index locally) would
+      # otherwise download CUDA binaries on linux/x64. CI never runs the model.
+      ONNXRUNTIME_NODE_INSTALL: skip
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test

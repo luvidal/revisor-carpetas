@@ -1,0 +1,316 @@
+{
+  "id": "f10",
+  "subset": "limpio",
+  "title": "Sueldo de las liquidaciones no cuadra con las cotizaciones",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Rodrigo Esteban Paredes Lagos",
+    "rut": "115.421.876-5"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2024-06-13",
+          "fields": {
+            "rut": "115.421.876-5",
+            "nombres": "RODRIGO ESTEBAN",
+            "apellidos": "PAREDES LAGOS",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1984-01-19",
+            "fecha_emision": "2024-06-13",
+            "fecha_vencimiento": "2034-06-13"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Inversiones Costa Brava SpA",
+            "nombre": "Rodrigo Esteban Paredes Lagos",
+            "rut": "115.421.876-5",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2015-09-01",
+            "cargo": "Gerente Comercial",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Isapre Araucaria",
+            "base_imponible": 2663354,
+            "base_tributable": 2162111,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 2300000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de gestión",
+                "value": 150000
+              },
+              {
+                "label": "Colación",
+                "value": 60000
+              },
+              {
+                "label": "Movilización",
+                "value": 50000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 298828,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Araucaria 7%",
+                "value": 186435,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 15980,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 51343,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Inversiones Costa Brava SpA",
+            "nombre": "Rodrigo Esteban Paredes Lagos",
+            "rut": "115.421.876-5",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2015-09-01",
+            "cargo": "Gerente Comercial",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Isapre Araucaria",
+            "base_imponible": 2663354,
+            "base_tributable": 2162111,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 2300000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de gestión",
+                "value": 150000
+              },
+              {
+                "label": "Colación",
+                "value": 60000
+              },
+              {
+                "label": "Movilización",
+                "value": 50000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 298828,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Araucaria 7%",
+                "value": 186435,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 15980,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 51343,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Quillay",
+            "nombre": "Rodrigo Esteban Paredes Lagos",
+            "rut": "115.421.876-5",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "QLL-2026-0733096",
+            "codigo_validador": "D3M5-UY72",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.659.374-3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-antiguedad.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "certificado-antiguedad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": null,
+          "fields": {
+            "empleador": "Inversiones Costa Brava SpA",
+            "rut_empleador": "176.659.374-3",
+            "empleado": "Rodrigo Esteban Paredes Lagos",
+            "rut": "115.421.876-5",
+            "cargo": "Gerente Comercial",
+            "fecha_ingreso": "2015-09-01",
+            "antiguedad": "11 años y 2 meses",
+            "renta": 2663354
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "sueldo_no_cuadra",
+      "doctype": "liquidaciones-sueldo",
+      "detail": "Las liquidaciones declaran una renta imponible mucho mayor que la que respalda el certificado AFP: la cotización descontada en la liquidación no coincide con la pagada en esos mismos meses."
+    }
+  ],
+  "expectedDecision": "escalar_a_persona",
+  "decisionReason": "Ingresos declarados no respaldados por las cotizaciones: posible liquidación adulterada. Lo revisa una persona."
+}

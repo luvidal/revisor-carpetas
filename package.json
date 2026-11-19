@@ -1,0 +1,37 @@
+{
+  "name": "revisor-carpetas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agente que revisa carpetas de documentos de solicitantes chilenos, con evals de extracción. Solo datos sintéticos.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "dataset": "tsx src/dataset/generate.ts",
+    "evals": "tsx src/evals/cli.ts run",
+    "evals:score": "tsx src/evals/cli.ts score",
+    "evals:check": "tsx src/evals/cli.ts check",
+    "evals:baseline": "tsx src/evals/cli.ts baseline",
+    "evals:compare": "tsx src/evals/cli.ts compare",
+    "agent": "tsx src/agent/cli.ts",
+    "demo": "tsx src/demo.ts",
+    "demo:video": "tsx src/demo-video.ts",
+    "rag:index": "tsx src/rag/build-index.ts",
+    "rag:eval": "tsx src/rag/eval.ts"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "jpeg-js": "0.4.4",
+    "pdf-lib": "1.17.1"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "4.3.2",
+    "@types/node": "24.19.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.1.0"
+  }
+}

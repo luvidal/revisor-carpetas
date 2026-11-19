@@ -1,0 +1,284 @@
+{
+  "id": "f07",
+  "subset": "limpio",
+  "title": "Cédula vencida, residente extranjera",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Rosa Elena Huamán Quispe",
+    "rut": "125.613.847-2"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2021-08-14",
+          "fields": {
+            "rut": "125.613.847-2",
+            "nombres": "ROSA ELENA",
+            "apellidos": "HUAMÁN QUISPE",
+            "nacionalidad": "PER",
+            "sexo": "F",
+            "fecha_nacimiento": "1988-07-30",
+            "fecha_emision": "2021-08-14",
+            "fecha_vencimiento": "2026-08-14"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Hotel Bahía Serena SpA",
+            "nombre": "Rosa Elena Huamán Quispe",
+            "rut": "125.613.847-2",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2021-11-02",
+            "cargo": "Recepcionista",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 950000,
+            "base_tributable": 771210,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 760000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 190000
+              },
+              {
+                "label": "Colación",
+                "value": 40000
+              },
+              {
+                "label": "Movilización",
+                "value": 30000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 106590,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 66500,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 5700,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Hotel Bahía Serena SpA",
+            "nombre": "Rosa Elena Huamán Quispe",
+            "rut": "125.613.847-2",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2021-11-02",
+            "cargo": "Recepcionista",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 950000,
+            "base_tributable": 771210,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 760000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 190000
+              },
+              {
+                "label": "Colación",
+                "value": 40000
+              },
+              {
+                "label": "Movilización",
+                "value": 30000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 106590,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 66500,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 5700,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Quillay",
+            "nombre": "Rosa Elena Huamán Quispe",
+            "rut": "125.613.847-2",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "QLL-2026-0602118",
+            "codigo_validador": "R4D6-VC13",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 106590,
+                "rut_pagador": "176.744.120-3"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "documento_vencido",
+      "doctype": "cedula-identidad",
+      "file": "cedula.png",
+      "detail": "La cédula venció el 14-08-2026, antes de la fecha de revisión (16-11-2026)."
+    }
+  ],
+  "expectedDecision": "pedir_documento",
+  "decisionReason": "La identidad no se puede acreditar con una cédula vencida; se pide la cédula vigente."
+}

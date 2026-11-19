@@ -1,0 +1,284 @@
+{
+  "id": "f09",
+  "subset": "limpio",
+  "title": "Certificado AFP de otra persona",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Catalina Belén Vargas Espinoza",
+    "rut": "118.290.463-1"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2023-09-21",
+          "fields": {
+            "rut": "118.290.463-1",
+            "nombres": "CATALINA BELÉN",
+            "apellidos": "VARGAS ESPINOZA",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1992-08-08",
+            "fecha_emision": "2023-09-21",
+            "fecha_vencimiento": "2033-09-21"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Agrícola Valle del Elqui Ltda.",
+            "nombre": "Catalina Belén Vargas Espinoza",
+            "rut": "118.290.463-1",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2019-03-18",
+            "cargo": "Contadora",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1563354,
+            "base_tributable": 1266160,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1350000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 178379,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 109435,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 9380,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 12900,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Agrícola Valle del Elqui Ltda.",
+            "nombre": "Catalina Belén Vargas Espinoza",
+            "rut": "118.290.463-1",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2019-03-18",
+            "cargo": "Contadora",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1563354,
+            "base_tributable": 1266160,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1350000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 178379,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 109435,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 9380,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 12900,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Pehuén",
+            "nombre": "Javiera Antonia Vargas Espinoza",
+            "rut": "119.871.205-8",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "PEH-2026-1315507",
+            "codigo_validador": "S9F3-AA26",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 117949,
+                "rut_pagador": "176.329.784-1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "rut_distinto",
+      "doctype": "cotizaciones-afp",
+      "file": "certificado-afp.pdf",
+      "detail": "El certificado AFP es de Javiera Antonia Vargas Espinoza, RUT 119.871.205-8; la solicitante es Catalina Belén Vargas Espinoza, RUT 118.290.463-1."
+    }
+  ],
+  "expectedDecision": "pedir_documento",
+  "decisionReason": "El documento es claramente de otra persona (otro nombre y otro RUT); se pide el certificado de la solicitante."
+}

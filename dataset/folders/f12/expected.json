@@ -1,0 +1,277 @@
+{
+  "id": "f12",
+  "subset": "limpio",
+  "title": "Carpeta completa, liquidación de septiembre fotografiada",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Joaquín Felipe Muñoz Araya",
+    "rut": "118.937.150-7"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2022-11-03",
+          "fields": {
+            "rut": "118.937.150-7",
+            "nombres": "JOAQUÍN FELIPE",
+            "apellidos": "MUÑOZ ARAYA",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1994-05-28",
+            "fecha_emision": "2022-11-03",
+            "fecha_vencimiento": "2032-11-03"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09-foto.png",
+      "mimeType": "image/png",
+      "rendering": "foto PNG levemente girada y borrosa",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Laboratorio Biomédica Austral SpA",
+            "nombre": "Joaquín Felipe Muñoz Araya",
+            "rut": "118.937.150-7",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2021-06-01",
+            "cargo": "Técnico de Laboratorio",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1333354,
+            "base_tributable": 1089483,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1120000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 45000
+              },
+              {
+                "label": "Movilización",
+                "value": 35000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 142536,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 93335,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 8000,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 5833,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Laboratorio Biomédica Austral SpA",
+            "nombre": "Joaquín Felipe Muñoz Araya",
+            "rut": "118.937.150-7",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2021-06-01",
+            "cargo": "Técnico de Laboratorio",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1333354,
+            "base_tributable": 1089483,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1120000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 45000
+              },
+              {
+                "label": "Movilización",
+                "value": 35000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 142536,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 93335,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 8000,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 5833,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Pehuén",
+            "nombre": "Joaquín Felipe Muñoz Araya",
+            "rut": "118.937.150-7",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "PEH-2026-1420074",
+            "codigo_validador": "Y2B8-HN67",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 138260,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 142536,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 142536,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 142536,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 142536,
+                "rut_pagador": "176.508.263-K"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 142536,
+                "rut_pagador": "176.508.263-K"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Carpeta completa y coherente. La foto de la liquidación prueba la lectura de imágenes torcidas y algo borrosas."
+}

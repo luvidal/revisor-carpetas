@@ -1,0 +1,296 @@
+{
+  "id": "f04",
+  "subset": "limpio",
+  "title": "Cambio de empleador en el año, un mes sin cotizar entre trabajos",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Matías Alejandro Rojas Vergara",
+    "rut": "117.102.935-6"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2021-10-04",
+          "fields": {
+            "rut": "117.102.935-6",
+            "nombres": "MATÍAS ALEJANDRO",
+            "apellidos": "ROJAS VERGARA",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1989-09-09",
+            "fecha_emision": "2021-10-04",
+            "fecha_vencimiento": "2031-10-04"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Constructora Valle Central SpA",
+            "nombre": "Matías Alejandro Rojas Vergara",
+            "rut": "117.102.935-6",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2026-04-01",
+            "cargo": "Jefe de Obra",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Isapre Araucaria",
+            "base_imponible": 2313354,
+            "base_tributable": 1877981,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 2100000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 70000
+              },
+              {
+                "label": "Movilización",
+                "value": 60000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 259558,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Araucaria 7%",
+                "value": 161935,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 13880,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 37373,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Constructora Valle Central SpA",
+            "nombre": "Matías Alejandro Rojas Vergara",
+            "rut": "117.102.935-6",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2026-04-01",
+            "cargo": "Jefe de Obra",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Isapre Araucaria",
+            "base_imponible": 2313354,
+            "base_tributable": 1877981,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 2100000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 70000
+              },
+              {
+                "label": "Movilización",
+                "value": 60000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 259558,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Araucaria 7%",
+                "value": 161935,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 13880,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 37373,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Quillay",
+            "nombre": "Matías Alejandro Rojas Vergara",
+            "rut": "117.102.935-6",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "QLL-2026-0517740",
+            "codigo_validador": "B5N8-TT02",
+            "meses_laguna": 1,
+            "lagunas_largas": 0,
+            "empleador_anterior": 8,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 220288,
+                "rut_pagador": "177.815.640-3"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 220288,
+                "rut_pagador": "177.815.640-3"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 220288,
+                "rut_pagador": "177.815.640-3"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 220288,
+                "rut_pagador": "177.815.640-3"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 259558,
+                "rut_pagador": "176.401.552-1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-antiguedad.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "certificado-antiguedad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": null,
+          "fields": {
+            "empleador": "Constructora Valle Central SpA",
+            "rut_empleador": "176.401.552-1",
+            "empleado": "Matías Alejandro Rojas Vergara",
+            "rut": "117.102.935-6",
+            "cargo": "Jefe de Obra",
+            "fecha_ingreso": "2026-04-01",
+            "antiguedad": "7 meses",
+            "renta": 2313354
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Carpeta completa y coherente. El cambio de empleador se explica con el certificado de antigüedad y las cotizaciones."
+}

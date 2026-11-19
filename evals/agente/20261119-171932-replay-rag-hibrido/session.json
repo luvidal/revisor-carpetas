@@ -1,0 +1,15 @@
+{
+  "runId": "20261119-171932-replay-rag-hibrido",
+  "mode": "replay de respuestas grabadas (20261119-171147-vivo-rag-hibrido), sin llamadas",
+  "subset": null,
+  "policy": {
+    "id": "politica-evaluacion · búsqueda hibrido",
+    "version": "2026-11-19"
+  },
+  "retry": {
+    "maxAttemptsPerFile": 3,
+    "maxRetriesPerFolder": 4,
+    "baseDelayMs": 2000,
+    "maxDelayMs": 20000
+  }
+}

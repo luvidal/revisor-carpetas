@@ -1,0 +1,291 @@
+{
+  "id": "d03",
+  "subset": "dificil",
+  "title": "Sueldo no cuadra, con imágenes muy comprimidas",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Marcela Ignacia Toro Valenzuela",
+    "rut": "116.872.451-5"
+  },
+  "files": [
+    {
+      "file": "cedula-comprimida.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "imagen JPEG a 72 ppp, muy comprimido (calidad 12)",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2022-03-03",
+          "fields": {
+            "rut": "116.872.451-5",
+            "nombres": "MARCELA IGNACIA",
+            "apellidos": "TORO VALENZUELA",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1988-12-09",
+            "fecha_emision": "2022-03-03",
+            "fecha_vencimiento": "2032-03-03"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09-comprimida.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "imagen JPEG a 100 ppp, muy comprimido (calidad 12), liquidación de otro formato (plantilla B)",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Servicios Contables Cordillera SpA",
+            "nombre": "Marcela Ignacia Toro Valenzuela",
+            "rut": "116.872.451-5",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2017-05-02",
+            "cargo": "Contadora Senior",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Isapre Araucaria",
+            "base_imponible": 2383354,
+            "base_tributable": 1947438,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 2050000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de desempeño",
+                "value": 120000
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 254781,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Araucaria 7%",
+                "value": 166835,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 14300,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 40152,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10-comprimida.jpg",
+      "mimeType": "image/jpeg",
+      "rendering": "imagen JPEG a 100 ppp, inclinado 3°, muy comprimido (calidad 15), liquidación de otro formato (plantilla B)",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Servicios Contables Cordillera SpA",
+            "nombre": "Marcela Ignacia Toro Valenzuela",
+            "rut": "116.872.451-5",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2017-05-02",
+            "cargo": "Contadora Senior",
+            "institucion_previsional": "AFP Pehuén",
+            "institucion_salud": "Isapre Araucaria",
+            "base_imponible": 2383354,
+            "base_tributable": 1947438,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 2050000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de desempeño",
+                "value": 120000
+              },
+              {
+                "label": "Colación",
+                "value": 50000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Pehuén 10,69%",
+                "value": 254781,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Araucaria 7%",
+                "value": 166835,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 14300,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 40152,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp-escaneo.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF escaneado a 75 ppp, con ruido",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Pehuén",
+            "nombre": "Marcela Ignacia Toro Valenzuela",
+            "rut": "116.872.451-5",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "PEH-2026-1677024",
+            "codigo_validador": "T4H9-LW03",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 156433,
+                "rut_pagador": "176.255.903-6"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "sueldo_no_cuadra",
+      "doctype": "liquidaciones-sueldo",
+      "detail": "Las liquidaciones declaran un sueldo base de $ 2.050.000 más bono; las cotizaciones AFP de los mismos meses corresponden a $ 1.250.000."
+    }
+  ],
+  "expectedDecision": "escalar_a_persona",
+  "decisionReason": "Ingresos declarados no respaldados por las cotizaciones: posible liquidación adulterada. Lo revisa una persona."
+}

@@ -1,0 +1,21 @@
+{
+  "runId": "20261119-171147-vivo-rag-hibrido",
+  "mode": "en vivo contra la API (tope 100 llamadas, reintentos del agente: 3 intentos por archivo, 4 reintentos por carpeta)",
+  "subset": null,
+  "policy": {
+    "id": "politica-evaluacion · búsqueda hibrido",
+    "version": "2026-11-19"
+  },
+  "retry": {
+    "maxAttemptsPerFile": 3,
+    "maxRetriesPerFolder": 4,
+    "baseDelayMs": 2000,
+    "maxDelayMs": 20000
+  },
+  "calls": {
+    "httpCalls": 73,
+    "rateLimited": 0,
+    "serverErrors": 1,
+    "networkErrors": 1
+  }
+}

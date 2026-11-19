@@ -1,0 +1,511 @@
+{
+  "description": "Dataset sintético de carpetas de solicitantes. MUESTRA SINTÉTICA: datos inventados.",
+  "referenceDate": "2026-11-16",
+  "folders": [
+    {
+      "id": "f01",
+      "subset": "limpio",
+      "title": "Carpeta completa, Fonasa, dos meses sin cotización",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "296184b83915bdfd929ce03eb8a1c751dba16f5e6f493e63db877bf1cd507f22",
+          "bytes": 106505
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "379a5851af1b52ea1b7045c16b069eaae98d0e8392fe2d8b2aac7c8214d9e600",
+          "bytes": 3255
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "2097141dc0eb88dd7a7dfdb2be47031de00ef093cde1cd1d295b91469b23e441",
+          "bytes": 3252
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "3b602e1c8df2884e63db717aae741abae825940425a7c1d37ae44e35803f9220",
+          "bytes": 3493
+        }
+      ]
+    },
+    {
+      "id": "f02",
+      "subset": "limpio",
+      "title": "Carpeta completa, isapre, con certificado de antigüedad",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "a9f3e2f2558cb9a20030aca74b33062a7c42b402b6f6a724ac7b208afc3f47b2",
+          "bytes": 107834
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "5971bdc3f1fa8d78bd6d71651b42d5b375a7bcb6ceacd16f6cf77940242c4b71",
+          "bytes": 3315
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "31def258c6cfdd79775cb8b0df7832796c5a854f8425f2fc7dce36757659173f",
+          "bytes": 3315
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "3d8e9349a1500d2c3990116d6f7aeda4e45f0cb41dbfda20a4cd865dafc8a1be",
+          "bytes": 3725
+        },
+        {
+          "file": "certificado-antiguedad.pdf",
+          "sha256": "8412fe1f078791280662b061c5f58ce19a00ae93571919b28df661da047bc730",
+          "bytes": 2183
+        }
+      ]
+    },
+    {
+      "id": "f03",
+      "subset": "limpio",
+      "title": "Carpeta completa, ambas liquidaciones en un solo PDF",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "fd71ff15e90f8d2353d4f93b3ded72154f4e48b7dfd88f832e30f7d500e9ba21",
+          "bytes": 107816
+        },
+        {
+          "file": "liquidaciones-2026-09-y-2026-10.pdf",
+          "sha256": "cb2255d08c16726bcceba5fd74329a79a9d715194626ba3ca7054e701ce50ff7",
+          "bytes": 5635
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "4c7f4f16c18b7b73bb4647504b57eab9630e5ca9b39365b6ec8c3cb783ab9872",
+          "bytes": 3715
+        }
+      ]
+    },
+    {
+      "id": "f04",
+      "subset": "limpio",
+      "title": "Cambio de empleador en el año, un mes sin cotizar entre trabajos",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "67b7a0c7aacb2464bf233f104871ae267f1bdc5d7c98fa9d7de0f7074470a4cd",
+          "bytes": 108536
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "ef079c76e5843b8cb9230d84847f8d3e0d8448086c6764a0c585729087d41e24",
+          "bytes": 3264
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "9c86198f28d66c7b6d73eb1ba82cbc7d09187aa63fbf5b95da9bfe5ac71433c1",
+          "bytes": 3260
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "13580a09686a4c9e3a214b8b2c47d9950e3e6970634f942697d699b20cfa3369",
+          "bytes": 3629
+        },
+        {
+          "file": "certificado-antiguedad.pdf",
+          "sha256": "6a090ec32f67dc9adb3283a9240b6020a051fa6ab302eb23416f31e3340a607d",
+          "bytes": 2197
+        }
+      ]
+    },
+    {
+      "id": "f05",
+      "subset": "limpio",
+      "title": "Falta el certificado de cotizaciones AFP",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "8a3c380084cd267856a6511f278ab59b280dada8ea80ee0117eb37d3f1f675c6",
+          "bytes": 107940
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "7e8ee2d3371d933616d5a614eb026f518b2b234a848bfe4a2db23a34ba260dd6",
+          "bytes": 3320
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "82a45bd5a58ee862765a48627b20521c04e798b3ae23ba7edb84d5dd3fb8bdcf",
+          "bytes": 3315
+        }
+      ]
+    },
+    {
+      "id": "f06",
+      "subset": "limpio",
+      "title": "Falta la liquidación de octubre",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "71bf40f42d261291c5f9b9392f4091efc04ee013c3aedf3c90576029185e92ce",
+          "bytes": 107788
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "dfb4f36f816ed3ccc3005d8c3627775b5b9b360ceb43f60f89ddb221dd184d27",
+          "bytes": 3220
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "8f9913549f5b6b445bc476aa06413c0ec004ce38f84e78dc1247a640d4f96c6a",
+          "bytes": 3723
+        }
+      ]
+    },
+    {
+      "id": "f07",
+      "subset": "limpio",
+      "title": "Cédula vencida, residente extranjera",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "ad4a666fa8a80eeba99f3e4b56fd296ebddb6481e31e12443aa9d98876ec7aa0",
+          "bytes": 112641
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "ecee7d418966f8115c5b43b56d8c4f93a0346b17e0abd4007120acaffaafb819",
+          "bytes": 3210
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "301f596f051dd435ba9d2d7cc127a03a9d3e0a5ec7379ecd416c16eba79d3fb7",
+          "bytes": 3209
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "5e2f283bf3591c1c260281f3ed1c8185b7d5da6917cb8f6424a101e61d732567",
+          "bytes": 3705
+        }
+      ]
+    },
+    {
+      "id": "f08",
+      "subset": "limpio",
+      "title": "RUT distinto en la liquidación de octubre",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "5dbb73045b6a5e3e537d62021d50f970f57ec876e9693c6574a33fab55e074f2",
+          "bytes": 108359
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "a38663982b7f7e63f860d2048d33660dac00e445f640b7aa9b196f6827df5b1a",
+          "bytes": 3322
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "321f0f46f066bd1230e4452d914168e5663bcbac6b8c779590c6f28b4e79dc6d",
+          "bytes": 3320
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "c259ac25a62633c808836c5475dfacb77df0000213e1be3cb105a8db4f9faed6",
+          "bytes": 3719
+        }
+      ]
+    },
+    {
+      "id": "f09",
+      "subset": "limpio",
+      "title": "Certificado AFP de otra persona",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "14f11586aeca2f851acc550187e0b7dbb2fe4ba965bd887cb01e5eda3da48c36",
+          "bytes": 107744
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "9b5c6a93b83b7cf93917a3f6b4f0748863ee47a8b38c258b1726b99edf20c982",
+          "bytes": 3238
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "d59eea25df25e75ad65e9dd752b2151335b4c296edeb3cb6ead362a0aee91cd2",
+          "bytes": 3237
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "b28725024323b7b971d775dc1acf64041cf991b3524bc97baf5ee96e2a4eac05",
+          "bytes": 3719
+        }
+      ]
+    },
+    {
+      "id": "f10",
+      "subset": "limpio",
+      "title": "Sueldo de las liquidaciones no cuadra con las cotizaciones",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "01a2811a30c5d1c6e1127c2d2cd2c805af91808cd3ae35cc7dfdd47d12e3883e",
+          "bytes": 107323
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "203d08a1519e2dec776e5f6c0e4bc4ae1444f1c9fb9e992f8ada6df8c8c92f60",
+          "bytes": 3315
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "2fed6a1b7d829955538b79c831bc0aa3a791dc8f46bcfd3e1a63e2125b0363c5",
+          "bytes": 3311
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "b23786ee32ed40d8d6fb90bbd9285a6efada0c8ebda7086c981e95b376bbc195",
+          "bytes": 3721
+        },
+        {
+          "file": "certificado-antiguedad.pdf",
+          "sha256": "f2422c07d013b38dbbb3c4224a0a78c8d7985a5a8e3803f5f269ecd494a5c728",
+          "bytes": 2175
+        }
+      ]
+    },
+    {
+      "id": "f11",
+      "subset": "limpio",
+      "title": "Sueldo no cuadra y además falta la cédula",
+      "files": [
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "aa98e552771e92dc45d456ad2328c5e73772f3e3d754a2a8e08cc0ea9a2be1b6",
+          "bytes": 3258
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "24e96c3b256f64c027a95a26ea0c111ae75e4f6fc7126705b20165ec0eb37c28",
+          "bytes": 3254
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "e89c047bb8448202609f33b76bb8cc3b79732efaf7e5d057ada4da0e43535488",
+          "bytes": 3721
+        }
+      ]
+    },
+    {
+      "id": "f12",
+      "subset": "limpio",
+      "title": "Carpeta completa, liquidación de septiembre fotografiada",
+      "files": [
+        {
+          "file": "cedula.png",
+          "sha256": "c474c7a2bd1b43c2430c76ed92545c01b90d491564656f45251a910316f2f1e7",
+          "bytes": 106898
+        },
+        {
+          "file": "liquidacion-2026-09-foto.png",
+          "sha256": "d4e36cdfb4b2ea6966d44d2fce32fcd0997232cc6bf9134bcc0eeb66d718c5ce",
+          "bytes": 720657
+        },
+        {
+          "file": "liquidacion-2026-10.pdf",
+          "sha256": "31383beee71861f83a07392ad356f9498b657674db838f55bafefda3e313f108",
+          "bytes": 3244
+        },
+        {
+          "file": "certificado-afp.pdf",
+          "sha256": "fce52c6821289c16ec98af3a18bade8ee4b68a8d3817c9a9bbc2816b831070be",
+          "bytes": 3730
+        }
+      ]
+    },
+    {
+      "id": "d01",
+      "subset": "dificil",
+      "title": "Carpeta completa, todo fotografiado o escaneado",
+      "files": [
+        {
+          "file": "cedula-foto.jpg",
+          "sha256": "228815b11dade9722c4d7777e749f28f35633956affbca8a9dbacedccdfb3922",
+          "bytes": 85682
+        },
+        {
+          "file": "liquidacion-2026-09-foto.jpg",
+          "sha256": "441dc606f0def4f09c24dfdbac4fa7e7df6006b401ad84a7ca5d64e4bcb4d047",
+          "bytes": 90522
+        },
+        {
+          "file": "liquidacion-2026-10-escaneo.pdf",
+          "sha256": "6f80fb0773dbd2a9814d1f98952ae12376bcd15844181600419cd6513626d350",
+          "bytes": 177520
+        },
+        {
+          "file": "certificado-afp-escaneo.pdf",
+          "sha256": "c129c3719cc0de53fc42de34a21253e45e2ccf62900bf84defb46dc5460180a9",
+          "bytes": 263146
+        }
+      ]
+    },
+    {
+      "id": "d02",
+      "subset": "dificil",
+      "title": "Carpeta completa, liquidaciones de otro formato y páginas giradas",
+      "files": [
+        {
+          "file": "cedula-invertida.png",
+          "sha256": "8c34ebf8044e49901ffc24369705d6b42a706a2e6e6dc2bac11359d0ecf45aa3",
+          "bytes": 48600
+        },
+        {
+          "file": "liquidacion-2026-09.pdf",
+          "sha256": "44a71d0d87d89c7161573c965a84733667cccda0bac351cc475fff2d97b596fc",
+          "bytes": 3857
+        },
+        {
+          "file": "liquidacion-2026-10-girada.pdf",
+          "sha256": "ab64722e0dae033726464121b3299f09386f9a4c8dfb27acc82ee0522627a49d",
+          "bytes": 3864
+        },
+        {
+          "file": "certificado-afp-invertido.pdf",
+          "sha256": "767a67d9181f631af011e4b2b10f623dd73dbb6ce30f39d16257658892a7a0e3",
+          "bytes": 3725
+        }
+      ]
+    },
+    {
+      "id": "d03",
+      "subset": "dificil",
+      "title": "Sueldo no cuadra, con imágenes muy comprimidas",
+      "files": [
+        {
+          "file": "cedula-comprimida.jpg",
+          "sha256": "0f4fe7fbbc97e4baefa8b14cd7292b277c8596ffa26c0a46e87fcf86597b13e7",
+          "bytes": 32020
+        },
+        {
+          "file": "liquidacion-2026-09-comprimida.jpg",
+          "sha256": "9cf4ffa925cbd0d9ed6c60828651ff4a3d931b451dd1d9b15fcf5b1bd6f1450c",
+          "bytes": 44765
+        },
+        {
+          "file": "liquidacion-2026-10-comprimida.jpg",
+          "sha256": "95c1a98f3a2dda37ac0f4e344d3d6ed85f974e1b2b983341e4d8c27148f26bd8",
+          "bytes": 52068
+        },
+        {
+          "file": "certificado-afp-escaneo.pdf",
+          "sha256": "47f17a1db8f5f76e3dd197d82e900f6297546a3ed1f400f7b2c4b912dec19dd3",
+          "bytes": 181034
+        }
+      ]
+    },
+    {
+      "id": "d04",
+      "subset": "dificil",
+      "title": "RUT distinto en una liquidación escaneada de lado",
+      "files": [
+        {
+          "file": "cedula-foto.png",
+          "sha256": "c4b7716e7919482a0f969fc78d725b09e3e421d44f3c51d893fd4eb22dda7363",
+          "bytes": 229678
+        },
+        {
+          "file": "liquidacion-2026-09-escaneo.pdf",
+          "sha256": "b98ce29f4a0ceafe2dce99ff1d5adab25a1e7f606f6e9c16e6aa43b251ba0cea",
+          "bytes": 236303
+        },
+        {
+          "file": "liquidacion-2026-10-escaneo-girado.pdf",
+          "sha256": "a92d568edc30e53a3e41701795fd1abac7eb555d4df13bb23cda0841e4f52de1",
+          "bytes": 219937
+        },
+        {
+          "file": "certificado-afp-foto.jpg",
+          "sha256": "a42c58bd3ef0c1c4799d44bbcd033538fd3afad56610acfadf44be52d2ef8faf",
+          "bytes": 96175
+        }
+      ]
+    },
+    {
+      "id": "d05",
+      "subset": "dificil",
+      "title": "Cédula vencida fotografiada, liquidaciones en un solo escaneo",
+      "files": [
+        {
+          "file": "cedula-foto.jpg",
+          "sha256": "d00424290239546c913b00a1401ed5ec53728620fe81dea523f695ce73653b5d",
+          "bytes": 72697
+        },
+        {
+          "file": "liquidaciones-2026-09-y-2026-10-escaneo.pdf",
+          "sha256": "95a33111a2e8033f0fd68e0c4bd821976e01b8ce13d3365a1be4f8ca7f11faab",
+          "bytes": 422822
+        },
+        {
+          "file": "certificado-afp-escaneo-invertido.pdf",
+          "sha256": "75f6c28bb5e9a9709399f81d3a79183fcceca88583b4ae71adccf1394bc3ecc3",
+          "bytes": 193714
+        },
+        {
+          "file": "certificado-antiguedad-escaneo.pdf",
+          "sha256": "42a3fa6afea65fc67b66e277ceceb88303eb326a2033ca7881ff750d75005d8d",
+          "bytes": 289812
+        }
+      ]
+    },
+    {
+      "id": "d06",
+      "subset": "dificil",
+      "title": "Falta el certificado AFP, liquidaciones fotografiadas",
+      "files": [
+        {
+          "file": "cedula-girada.png",
+          "sha256": "b668b21d8ddd228b53a5c1d415f525a496108a6fafe2d5f11c05b9981b470f9a",
+          "bytes": 58111
+        },
+        {
+          "file": "liquidacion-2026-09-foto.jpg",
+          "sha256": "0a8aecad84213950145148f084d285b706831c26c31c2c78587db2530fe3d104",
+          "bytes": 64848
+        },
+        {
+          "file": "liquidacion-2026-10-foto.jpg",
+          "sha256": "16734a4ad64690cb02dc73aa1207c398bd4b9b7e9d15a594acfd5e4eed8a67f3",
+          "bytes": 66790
+        },
+        {
+          "file": "certificado-antiguedad-foto.jpg",
+          "sha256": "2685afff45bee37dda2620dec0674010e8dd95e8e6a8292171f81e1b6223bda9",
+          "bytes": 64901
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "limpio": {
+      "folders": 12,
+      "files": 47,
+      "documents": 48,
+      "byDoctype": {
+        "cedula-identidad": 11,
+        "liquidaciones-sueldo": 23,
+        "cotizaciones-afp": 11,
+        "certificado-antiguedad": 3
+      }
+    },
+    "dificil": {
+      "folders": 6,
+      "files": 24,
+      "documents": 25,
+      "byDoctype": {
+        "cedula-identidad": 6,
+        "liquidaciones-sueldo": 12,
+        "cotizaciones-afp": 5,
+        "certificado-antiguedad": 2
+      }
+    }
+  }
+}

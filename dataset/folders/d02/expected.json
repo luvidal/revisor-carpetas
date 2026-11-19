@@ -1,0 +1,285 @@
+{
+  "id": "d02",
+  "subset": "dificil",
+  "title": "Carpeta completa, liquidaciones de otro formato y páginas giradas",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Gonzalo Andrés Reyes Cifuentes",
+    "rut": "116.540.927-9"
+  },
+  "files": [
+    {
+      "file": "cedula-invertida.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG a 72 ppp, girado 180°",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2021-04-15",
+          "fields": {
+            "rut": "116.540.927-9",
+            "nombres": "GONZALO ANDRÉS",
+            "apellidos": "REYES CIFUENTES",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1986-06-30",
+            "fecha_emision": "2021-04-15",
+            "fecha_vencimiento": "2031-04-15"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial, liquidación de otro formato (plantilla B)",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Agroindustrial Valle Verde Ltda.",
+            "nombre": "Gonzalo Andrés Reyes Cifuentes",
+            "rut": "116.540.927-9",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2014-01-13",
+            "cargo": "Jefe de Planta",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Isapre Vida Sur",
+            "base_imponible": 2248354,
+            "base_tributable": 1820942,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1950000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de turno",
+                "value": 85000
+              },
+              {
+                "label": "Colación",
+                "value": 60000
+              },
+              {
+                "label": "Movilización",
+                "value": 50000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 256537,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Vida Sur 7%",
+                "value": 157385,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 13490,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 35092,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10-girada.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial girado 90°, liquidación de otro formato (plantilla B)",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Agroindustrial Valle Verde Ltda.",
+            "nombre": "Gonzalo Andrés Reyes Cifuentes",
+            "rut": "116.540.927-9",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2014-01-13",
+            "cargo": "Jefe de Planta",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Isapre Vida Sur",
+            "base_imponible": 2248354,
+            "base_tributable": 1820942,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1950000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Bono de turno",
+                "value": 85000
+              },
+              {
+                "label": "Colación",
+                "value": 60000
+              },
+              {
+                "label": "Movilización",
+                "value": 50000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 256537,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Isapre Vida Sur 7%",
+                "value": 157385,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 13490,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 35092,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp-invertido.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial girado 180°",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Litoral",
+            "nombre": "Gonzalo Andrés Reyes Cifuentes",
+            "rut": "116.540.927-9",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "LIT-2026-0201933",
+            "codigo_validador": "F8R2-QN56",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 256537,
+                "rut_pagador": "177.106.348-5"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Carpeta completa y coherente. Prueba otro formato de liquidación y páginas giradas 90° y 180°."
+}

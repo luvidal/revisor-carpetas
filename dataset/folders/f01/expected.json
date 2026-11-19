@@ -1,0 +1,265 @@
+{
+  "id": "f01",
+  "subset": "limpio",
+  "title": "Carpeta completa, Fonasa, dos meses sin cotización",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Camila Andrea Soto Muñoz",
+    "rut": "117.843.226-1"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2023-05-10",
+          "fields": {
+            "rut": "117.843.226-1",
+            "nombres": "CAMILA ANDREA",
+            "apellidos": "SOTO MUÑOZ",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1991-04-17",
+            "fecha_emision": "2023-05-10",
+            "fecha_vencimiento": "2033-05-10"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Comercial Los Aromos SpA",
+            "nombre": "Camila Andrea Soto Muñoz",
+            "rut": "117.843.226-1",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2019-08-01",
+            "cargo": "Ejecutiva de Ventas",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1263354,
+            "base_tributable": 1025591,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1050000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 45000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 141748,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 88435,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 7580,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 3278,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Comercial Los Aromos SpA",
+            "nombre": "Camila Andrea Soto Muñoz",
+            "rut": "117.843.226-1",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2019-08-01",
+            "cargo": "Ejecutiva de Ventas",
+            "institucion_previsional": "AFP Quillay",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1263354,
+            "base_tributable": 1025591,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 1050000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 213354
+              },
+              {
+                "label": "Colación",
+                "value": 45000
+              },
+              {
+                "label": "Movilización",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Quillay 11,22%",
+                "value": 141748,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 88435,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 7580,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 3278,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Quillay",
+            "nombre": "Camila Andrea Soto Muñoz",
+            "rut": "117.843.226-1",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "QLL-2026-0481327",
+            "codigo_validador": "7F3K-29QD",
+            "meses_laguna": 2,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 137260,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 137260,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 137260,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 137260,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 137260,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 137260,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.512.384-0"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 141748,
+                "rut_pagador": "176.512.384-0"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Todos los documentos están, son de la misma persona y cuadran entre sí. Dos meses sin cotizar es información para el analista, no un defecto."
+}

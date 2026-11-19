@@ -1,0 +1,270 @@
+{
+  "id": "f03",
+  "subset": "limpio",
+  "title": "Carpeta completa, ambas liquidaciones en un solo PDF",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Valentina Paz Morales Contreras",
+    "rut": "119.384.672-2"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2024-02-08",
+          "fields": {
+            "rut": "119.384.672-2",
+            "nombres": "VALENTINA PAZ",
+            "apellidos": "MORALES CONTRERAS",
+            "nacionalidad": "CHILENA",
+            "sexo": "F",
+            "fecha_nacimiento": "1995-06-22",
+            "fecha_emision": "2024-02-08",
+            "fecha_vencimiento": "2034-02-08"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidaciones-2026-09-y-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Clínica Dental Sonrisa Norte SpA",
+            "nombre": "Valentina Paz Morales Contreras",
+            "rut": "119.384.672-2",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2022-01-03",
+            "cargo": "Asistente Dental",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 850000,
+            "base_tributable": 688415,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 680000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 170000
+              },
+              {
+                "label": "Colación",
+                "value": 35000
+              },
+              {
+                "label": "Movilización",
+                "value": 30000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 96985,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 59500,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 5100,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        },
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 2,
+            "end": 2
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "empleador": "Clínica Dental Sonrisa Norte SpA",
+            "nombre": "Valentina Paz Morales Contreras",
+            "rut": "119.384.672-2",
+            "periodo": "2026-10",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2022-01-03",
+            "cargo": "Asistente Dental",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 850000,
+            "base_tributable": 688415,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 680000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 170000
+              },
+              {
+                "label": "Colación",
+                "value": 35000
+              },
+              {
+                "label": "Movilización",
+                "value": 30000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 96985,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 59500,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 5100,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Litoral",
+            "nombre": "Valentina Paz Morales Contreras",
+            "rut": "119.384.672-2",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "LIT-2026-0090714",
+            "codigo_validador": "Q7W2-ZX90",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 96985,
+                "rut_pagador": "176.938.207-7"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "expectedDecision": "lista_para_analista",
+  "decisionReason": "Carpeta completa y coherente. El PDF con dos liquidaciones debe separarse en dos documentos."
+}

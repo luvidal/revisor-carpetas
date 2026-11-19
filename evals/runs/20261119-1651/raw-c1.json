@@ -1,0 +1,4300 @@
+{
+  "runTag": "20261119-1651-c1",
+  "startedAt": "2026-11-19T19:51:52.902Z",
+  "finishedAt": "2026-11-19T20:00:37.989Z",
+  "results": [
+    {
+      "folder": "f01",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 29388,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "117.843.226-1",
+              "nombres": "CAMILA ANDREA",
+              "apellidos": "SOTO MUÑOZ",
+              "nacionalidad": "CHILENA",
+              "sexo": "F",
+              "fecha_nacimiento": "1991-04-17",
+              "fecha_emision": "2023-05-10",
+              "fecha_vencimiento": "2033-05-10"
+            },
+            "docdate": "2023-05-10",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f01",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 16391,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Comercial Los Aromos SpA",
+              "nombre": "Camila Andrea Soto Muñoz",
+              "rut": "117.843.226-1",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2019-08-01",
+              "cargo": "Ejecutiva de Ventas",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1263354,
+              "base_tributable": 1025591,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1050000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 45000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 141748,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 88435,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 7580,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 3278,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f01",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 13346,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Comercial Los Aromos SpA",
+              "nombre": "Camila Andrea Soto Muñoz",
+              "rut": "117.843.226-1",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2019-08-01",
+              "cargo": "Ejecutiva de Ventas",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1263354,
+              "base_tributable": 1025591,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1050000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 45000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 141748,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 88435,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 7580,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 3278,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f01",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 23020,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP QUILLAY",
+              "nombre": "Camila Andrea Soto Muñoz",
+              "rut": "117.843.226-1",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "QLL-2026-0481327",
+              "codigo_validador": "7F3K-29QD",
+              "meses_laguna": 2,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 137260,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 137260,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 137260,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 137260,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 137260,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 137260,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.512.384-0"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.512.384-0"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f02",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 12937,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "116.209.551-6",
+              "nombres": "DIEGO IGNACIO",
+              "apellidos": "FUENTES RIQUELME",
+              "nacionalidad": "CHILENA",
+              "sexo": "M",
+              "fecha_nacimiento": "1987-11-03",
+              "fecha_emision": "2022-01-20",
+              "fecha_vencimiento": "2032-01-20"
+            },
+            "docdate": "2022-01-20",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f02",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 62399,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Servicios Logísticos Pudahuel Ltda.",
+              "nombre": "Diego Ignacio Fuentes Riquelme",
+              "rut": "116.209.551-6",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2016-03-14",
+              "cargo": "Jefe de Bodega",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Isapre Vida Sur",
+              "base_imponible": 1813354,
+              "base_tributable": 1481691,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1480000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": null,
+                  "label": "Bono de producción",
+                  "value": 120000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 60000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 193848,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Vida Sur 7%",
+                  "value": 126935,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 10880,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 21522,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f02",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 13470,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Servicios Logísticos Pudahuel Ltda.",
+              "nombre": "Diego Ignacio Fuentes Riquelme",
+              "rut": "116.209.551-6",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2016-03-14",
+              "cargo": "Jefe de Bodega",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Isapre Vida Sur",
+              "base_imponible": 1813354,
+              "base_tributable": 1481691,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1480000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": null,
+                  "label": "Bono de producción",
+                  "value": 120000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 60000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 193848,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Vida Sur 7%",
+                  "value": 126935,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 10880,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 21522,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f02",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 12888,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP PEHUÉN",
+              "nombre": "Diego Ignacio Fuentes Riquelme",
+              "rut": "116.209.551-6",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "PEH-2026-1102938",
+              "codigo_validador": "K8L2-MM41",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 187434,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 187434,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 187434,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 187434,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 187434,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 193848,
+                  "rut_pagador": "177.204.118-3"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f02",
+      "file": "certificado-antiguedad.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 34924,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "certificado-antiguedad",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Servicios Logísticos Pudahuel Ltda.",
+              "rut_empleador": "177.204.118-3",
+              "empleado": "Diego Ignacio Fuentes Riquelme",
+              "rut": "116.209.551-6",
+              "cargo": "Jefe de Bodega",
+              "fecha_ingreso": "2016-03-14",
+              "antiguedad": "10 años y 7 meses",
+              "renta": 1813354
+            },
+            "docdate": "2026-11-12",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f03",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 21348,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "119.384.672-2",
+              "nombres": "VALENTINA PAZ",
+              "apellidos": "MORALES CONTRERAS",
+              "nacionalidad": "CHILENA",
+              "sexo": "F",
+              "fecha_nacimiento": "1995-06-22",
+              "fecha_emision": "2024-02-08",
+              "fecha_vencimiento": "2034-02-08"
+            },
+            "docdate": "2024-02-08",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f03",
+      "file": "liquidaciones-2026-09-y-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 41374,
+      "attempts": 2,
+      "retries": [
+        "HTTP 504: respuesta HTML del proxy (ERROR: The request could not be satisfied)"
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Clínica Dental Sonrisa Norte SpA",
+              "nombre": "Valentina Paz Morales Contreras",
+              "rut": "119.384.672-2",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2022-01-03",
+              "cargo": "Asistente Dental",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 850000,
+              "base_tributable": 688415,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 680000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 170000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 35000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 30000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 96985,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 59500,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 5100,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 0,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0
+          },
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 2,
+              "end": 2
+            },
+            "fields": {
+              "empleador": "Clínica Dental Sonrisa Norte SpA",
+              "nombre": "Valentina Paz Morales Contreras",
+              "rut": "119.384.672-2",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2022-01-03",
+              "cargo": "Asistente Dental",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 850000,
+              "base_tributable": 688415,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 680000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 170000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 35000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 30000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 96985,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 59500,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 5100,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 0,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f03",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 8551,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP LITORAL",
+              "nombre": "Valentina Paz Morales Contreras",
+              "rut": "119.384.672-2",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "LIT-2026-0090714",
+              "codigo_validador": "Q7W2-ZX90",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 96985,
+                  "rut_pagador": "176.938.207-7"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f04",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 45641,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "117.102.935-6",
+              "nombres": "MATÍAS ALEJANDRO",
+              "apellidos": "ROJAS VERGARA",
+              "nacionalidad": "CHILENA",
+              "sexo": "M",
+              "fecha_nacimiento": "1989-09-09",
+              "fecha_emision": "2021-10-04",
+              "fecha_vencimiento": "2031-10-04"
+            },
+            "docdate": "2021-10-04",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f04",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 16145,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Constructora Valle Central SpA",
+              "nombre": "Matías Alejandro Rojas Vergara",
+              "rut": "117.102.935-6",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2026-04-01",
+              "cargo": "Jefe de Obra",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Isapre Araucaria",
+              "base_imponible": 2313354,
+              "base_tributable": 1877981,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 2100000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 70000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 60000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 259558,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Araucaria 7%",
+                  "value": 161935,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 13880,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 37373,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f04",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 16246,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Constructora Valle Central SpA",
+              "nombre": "Matías Alejandro Rojas Vergara",
+              "rut": "117.102.935-6",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2026-04-01",
+              "cargo": "Jefe de Obra",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Isapre Araucaria",
+              "base_imponible": 2313354,
+              "base_tributable": 1877981,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 2100000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 70000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 60000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 259558,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Araucaria 7%",
+                  "value": 161935,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 13880,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 37373,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f04",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 33735,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP QUILLAY",
+              "nombre": "Matías Alejandro Rojas Vergara",
+              "rut": "117.102.935-6",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "QLL-2026-0517740",
+              "codigo_validador": "B5N8-TT02",
+              "meses_laguna": 1,
+              "lagunas_largas": 0,
+              "empleador_anterior": 8,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 220288,
+                  "rut_pagador": "177.815.640-3"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 220288,
+                  "rut_pagador": "177.815.640-3"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 220288,
+                  "rut_pagador": "177.815.640-3"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 220288,
+                  "rut_pagador": "177.815.640-3"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 259558,
+                  "rut_pagador": "176.401.552-1"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f04",
+      "file": "certificado-antiguedad.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 27487,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "certificado-antiguedad",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Constructora Valle Central SpA",
+              "rut_empleador": "176.401.552-1",
+              "empleado": "Matías Alejandro Rojas Vergara",
+              "rut": "117.102.935-6",
+              "cargo": "Jefe de Obra",
+              "fecha_ingreso": "2026-04-01",
+              "antiguedad": "7 meses",
+              "renta": 2313354
+            },
+            "docdate": "2026-11-12",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f05",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 39895,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "118.725.390-6",
+              "nombres": "FRANCISCA JAVIERA",
+              "apellidos": "NÚÑEZ PIZARRO",
+              "nacionalidad": "CHILENA",
+              "sexo": "F",
+              "fecha_nacimiento": "1993-02-11",
+              "fecha_emision": "2025-03-17",
+              "fecha_vencimiento": "2035-03-17"
+            },
+            "docdate": "2025-03-17",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f05",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 48084,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Panadería y Pastelería El Trigal Ltda.",
+              "nombre": "Francisca Javiera Núñez Pizarro",
+              "rut": "118.725.390-6",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2020-10-05",
+              "cargo": "Administradora de Local",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1223354,
+              "base_tributable": 999602,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 950000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": null,
+                  "label": "Bono de cumplimiento",
+                  "value": 60000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 130777,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 85635,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 7340,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 2238,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f05",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 27465,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Panadería y Pastelería El Trigal Ltda.",
+              "nombre": "Francisca Javiera Núñez Pizarro",
+              "rut": "118.725.390-6",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2020-10-05",
+              "cargo": "Administradora de Local",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1223354,
+              "base_tributable": 999602,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 950000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": null,
+                  "label": "Bono de cumplimiento",
+                  "value": 60000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 130777,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 85635,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 7340,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 2238,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f06",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 18333,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "117.556.018-8",
+              "nombres": "SEBASTIÁN ANDRÉS",
+              "apellidos": "CASTILLO BRAVO",
+              "nacionalidad": "CHILENA",
+              "sexo": "M",
+              "fecha_nacimiento": "1990-12-01",
+              "fecha_emision": "2022-07-29",
+              "fecha_vencimiento": "2032-07-29"
+            },
+            "docdate": "2022-07-29",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f06",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 12369,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Transportes Cordillera Sur SpA",
+              "nombre": "Sebastián Andrés Castillo Bravo",
+              "rut": "117.556.018-8",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2018-05-02",
+              "cargo": "Conductor",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1120000,
+              "base_tributable": 907088,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 820000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 205000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "horas_extras",
+                  "label": "Horas extras",
+                  "value": 95000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 127792,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 78400,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 6720,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 0,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f06",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 8949,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP LITORAL",
+              "nombre": "Sebastián Andrés Castillo Bravo",
+              "rut": "117.556.018-8",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "LIT-2026-0114205",
+              "codigo_validador": "H2J9-PL55",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 127792,
+                  "rut_pagador": "176.287.441-1"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f07",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 79856,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "125.613.847-2",
+              "nombres": "ROSA ELENA",
+              "apellidos": "HUAMÁN QUISPE",
+              "nacionalidad": "PER",
+              "sexo": "F",
+              "fecha_nacimiento": "1988-07-30",
+              "numero_documento": "104.552.871",
+              "fecha_emision": "2021-08-14",
+              "fecha_vencimiento": "2026-08-14"
+            },
+            "docdate": "2021-08-14",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f07",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 53653,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Hotel Bahía Serena SpA",
+              "nombre": "Rosa Elena Huamán Quispe",
+              "rut": "125.613.847-2",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2021-11-02",
+              "cargo": "Recepcionista",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 950000,
+              "base_tributable": 771210,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 760000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 190000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 30000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 106590,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 66500,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 5700,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 0,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f07",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 100124,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Hotel Bahía Serena SpA",
+              "nombre": "Rosa Elena Huamán Quispe",
+              "rut": "125.613.847-2",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2021-11-02",
+              "cargo": "Recepcionista",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 950000,
+              "base_tributable": 771210,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 760000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 190000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 30000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 106590,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 66500,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 5700,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 0,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f07",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 8573,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP QUILLAY",
+              "nombre": "Rosa Elena Huamán Quispe",
+              "rut": "125.613.847-2",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "QLL-2026-0602118",
+              "codigo_validador": "R4D6-VC13",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 106590,
+                  "rut_pagador": "176.744.120-3"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f08",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 26957,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "115.938.704-2",
+              "nombres": "IGNACIO TOMÁS",
+              "apellidos": "HERRERA SAAVEDRA",
+              "nacionalidad": "CHILENA",
+              "sexo": "M",
+              "fecha_nacimiento": "1985-03-25",
+              "fecha_emision": "2020-12-11",
+              "fecha_vencimiento": "2030-12-11"
+            },
+            "docdate": "2020-12-11",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f08",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 16231,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Distribuidora Ferretera Maipo SpA",
+              "nombre": "Ignacio Tomás Herrera Saavedra",
+              "rut": "115.938.704-2",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2017-07-10",
+              "cargo": "Vendedor Técnico",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Isapre Vida Sur",
+              "base_imponible": 1623354,
+              "base_tributable": 1326442,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1200000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "comisiones",
+                  "label": "Comisiones por venta",
+                  "value": 210000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 45000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 173537,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Vida Sur 7%",
+                  "value": 113635,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 9740,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 15312,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f08",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 19872,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Distribuidora Ferretera Maipo SpA",
+              "nombre": "Ignacio Tomás Herrera Saavedra",
+              "rut": "115.983.704-8",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2017-07-10",
+              "cargo": "Vendedor Técnico",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Isapre Vida Sur",
+              "base_imponible": 1623354,
+              "base_tributable": 1326442,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1200000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "comisiones",
+                  "label": "Comisiones por venta",
+                  "value": 210000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 45000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 173537,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Vida Sur 7%",
+                  "value": 113635,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 9740,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 15312,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f08",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 15147,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP PEHUÉN",
+              "nombre": "Ignacio Tomás Herrera Saavedra",
+              "rut": "115.938.704-2",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "PEH-2026-1209931",
+              "codigo_validador": "N1C7-EE80",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 173537,
+                  "rut_pagador": "176.115.829-1"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f09",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 65910,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "118.290.463-1",
+              "nombres": "CATALINA BELÉN",
+              "apellidos": "VARGAS ESPINOZA",
+              "nacionalidad": "CHILENA",
+              "sexo": "F",
+              "fecha_nacimiento": "1992-08-08",
+              "fecha_emision": "2023-09-21",
+              "fecha_vencimiento": "2033-09-21"
+            },
+            "docdate": "2023-09-21",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f09",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 41972,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Agrícola Valle del Elqui Ltda.",
+              "nombre": "Catalina Belén Vargas Espinoza",
+              "rut": "118.290.463-1",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2019-03-18",
+              "cargo": "Contadora",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1563354,
+              "base_tributable": 1266160,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1350000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 178379,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 109435,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 9380,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 12900,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f09",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 9136,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Agrícola Valle del Elqui Ltda.",
+              "nombre": "Catalina Belén Vargas Espinoza",
+              "rut": "118.290.463-1",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2019-03-18",
+              "cargo": "Contadora",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1563354,
+              "base_tributable": 1266160,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1350000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 178379,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 109435,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 9380,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 12900,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f09",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 10977,
+      "attempts": 2,
+      "retries": [
+        "HTTP 503 [ai_timeout]: The AI provider did not respond in time — retry the read."
+      ],
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP PEHUÉN",
+              "nombre": "Javiera Antonia Vargas Espinoza",
+              "rut": "119.871.205-8",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "PEH-2026-1315507",
+              "codigo_validador": "S9F3-AA26",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 117949,
+                  "rut_pagador": "176.329.784-1"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f10",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 9809,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "115.421.876-5",
+              "nombres": "RODRIGO ESTEBAN",
+              "apellidos": "PAREDES LAGOS",
+              "nacionalidad": "CHILENA",
+              "sexo": "M",
+              "fecha_nacimiento": "1984-01-19",
+              "fecha_emision": "2024-06-13",
+              "fecha_vencimiento": "2034-06-13"
+            },
+            "docdate": "2024-06-13",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f10",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 69500,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Inversiones Costa Brava SpA",
+              "nombre": "Rodrigo Esteban Paredes Lagos",
+              "rut": "115.421.876-5",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2015-09-01",
+              "cargo": "Gerente Comercial",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Isapre Araucaria",
+              "base_imponible": 2663354,
+              "base_tributable": 2162111,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 2300000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": null,
+                  "label": "Bono de gestión",
+                  "value": 150000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 60000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 298828,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Araucaria 7%",
+                  "value": 186435,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 15980,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 51343,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f10",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 39892,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Inversiones Costa Brava SpA",
+              "nombre": "Rodrigo Esteban Paredes Lagos",
+              "rut": "115.421.876-5",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2015-09-01",
+              "cargo": "Gerente Comercial",
+              "institucion_previsional": "AFP Quillay",
+              "institucion_salud": "Isapre Araucaria",
+              "base_imponible": 2663354,
+              "base_tributable": 2162111,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 2300000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": null,
+                  "label": "Bono de gestión",
+                  "value": 150000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Variable"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 60000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Quillay 11,22%",
+                  "value": 298828,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Isapre Araucaria 7%",
+                  "value": 186435,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 15980,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 51343,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f10",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 49230,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP QUILLAY",
+              "nombre": "Rodrigo Esteban Paredes Lagos",
+              "rut": "115.421.876-5",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "QLL-2026-0733096",
+              "codigo_validador": "D3M5-UY72",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 141748,
+                  "rut_pagador": "176.659.374-3"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f10",
+      "file": "certificado-antiguedad.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 8467,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "certificado-antiguedad",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Inversiones Costa Brava SpA",
+              "rut_empleador": "176.659.374-3",
+              "empleado": "Rodrigo Esteban Paredes Lagos",
+              "rut": "115.421.876-5",
+              "cargo": "Gerente Comercial",
+              "fecha_ingreso": "2015-09-01",
+              "antiguedad": "11 años y 2 meses",
+              "renta": 2663354
+            },
+            "docdate": "2026-11-12",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f11",
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 8052,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Retail Andino SpA",
+              "nombre": "Paula Fernanda Gallardo Tapia",
+              "rut": "119.652.318-5",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2021-04-12",
+              "cargo": "Supervisora de Tienda",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1813354,
+              "base_tributable": 1468635,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1600000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 206904,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 126935,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 10880,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 20999,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f11",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 7388,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Retail Andino SpA",
+              "nombre": "Paula Fernanda Gallardo Tapia",
+              "rut": "119.652.318-5",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2021-04-12",
+              "cargo": "Supervisora de Tienda",
+              "institucion_previsional": "AFP Litoral",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1813354,
+              "base_tributable": 1468635,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1600000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 50000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 40000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Litoral 11,41%",
+                  "value": 206904,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 126935,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 10880,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 20999,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f11",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 46871,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP LITORAL",
+              "nombre": "Paula Fernanda Gallardo Tapia",
+              "rut": "119.652.318-5",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "LIT-2026-0158862",
+              "codigo_validador": "W6G1-OP38",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 149854,
+                  "rut_pagador": "176.830.596-6"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f12",
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 6754,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cedula-identidad",
+            "partId": "front",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "rut": "118.937.150-7",
+              "nombres": "JOAQUÍN FELIPE",
+              "apellidos": "MUÑOZ ARAYA",
+              "nacionalidad": "CHILENA",
+              "sexo": "M",
+              "fecha_nacimiento": "1994-05-28",
+              "fecha_emision": "2022-11-03",
+              "fecha_vencimiento": "2032-11-03"
+            },
+            "docdate": "2022-11-03",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f12",
+      "file": "liquidacion-2026-09-foto.png",
+      "mimeType": "image/png",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 12505,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Laboratorio Biomédica Austral SpA",
+              "nombre": "Joaquín Felipe Muñoz Araya",
+              "rut": "118.937.150-7",
+              "periodo": "2026-09",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2021-06-01",
+              "cargo": "Técnico de Laboratorio",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1333354,
+              "base_tributable": 1089483,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1120000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 45000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 35000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 142536,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 93335,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 8000,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 5833,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-09-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f12",
+      "file": "liquidacion-2026-10.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 10869,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "liquidaciones-sueldo",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "empleador": "Laboratorio Biomédica Austral SpA",
+              "nombre": "Joaquín Felipe Muñoz Araya",
+              "rut": "118.937.150-7",
+              "periodo": "2026-10",
+              "dias_trabajados": 30,
+              "fecha_ingreso": "2021-06-01",
+              "cargo": "Técnico de Laboratorio",
+              "institucion_previsional": "AFP Pehuén",
+              "institucion_salud": "Fonasa",
+              "base_imponible": 1333354,
+              "base_tributable": 1089483,
+              "haberes": [
+                {
+                  "canonicalId": "sueldo_base",
+                  "label": "Sueldo base",
+                  "value": 1120000,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "gratificacion",
+                  "label": "Gratificación legal",
+                  "value": 213354,
+                  "naturaleza": "Imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "colacion",
+                  "label": "Colación",
+                  "value": 45000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                },
+                {
+                  "canonicalId": "movilizacion",
+                  "label": "Movilización",
+                  "value": 35000,
+                  "naturaleza": "No imponible",
+                  "tipoRenta": "Fija"
+                }
+              ],
+              "descuentos": [
+                {
+                  "canonicalId": "afp_cotizacion_obligatoria",
+                  "label": "Cotización AFP Pehuén 10,69%",
+                  "value": 142536,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "afp"
+                },
+                {
+                  "canonicalId": "salud_obligatoria",
+                  "label": "Salud Fonasa 7%",
+                  "value": 93335,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "salud"
+                },
+                {
+                  "canonicalId": "seguro_cesantia",
+                  "label": "Seguro de cesantía 0,6%",
+                  "value": 8000,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "cesantia"
+                },
+                {
+                  "canonicalId": "impuesto_unico",
+                  "label": "Impuesto único 2a categoría",
+                  "value": 5833,
+                  "naturaleza": "Legal",
+                  "tipoRenta": "Fija",
+                  "legalType": "impuesto"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    },
+    {
+      "folder": "f12",
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "ok": true,
+      "status": 200,
+      "latencyMs": 22846,
+      "attempts": 1,
+      "response": {
+        "documents": [
+          {
+            "doctype": "cotizaciones-afp",
+            "pages": {
+              "start": 1,
+              "end": 1
+            },
+            "fields": {
+              "afp": "AFP PEHUÉN",
+              "nombre": "Joaquín Felipe Muñoz Araya",
+              "rut": "118.937.150-7",
+              "periodo_desde": "11-2025",
+              "periodo_hasta": "10-2026",
+              "folio_certificacion": "PEH-2026-1420074",
+              "codigo_validador": "Y2B8-HN67",
+              "meses_laguna": 0,
+              "lagunas_largas": 0,
+              "cotizaciones": [
+                {
+                  "periodo": "11-2025",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "12-2025",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "01-2026",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "02-2026",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "03-2026",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "04-2026",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "05-2026",
+                  "tipo": "normal",
+                  "monto": 138260,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "06-2026",
+                  "tipo": "normal",
+                  "monto": 142536,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "07-2026",
+                  "tipo": "normal",
+                  "monto": 142536,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "08-2026",
+                  "tipo": "normal",
+                  "monto": 142536,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "09-2026",
+                  "tipo": "normal",
+                  "monto": 142536,
+                  "rut_pagador": "176.508.263-K"
+                },
+                {
+                  "periodo": "10-2026",
+                  "tipo": "normal",
+                  "monto": 142536,
+                  "rut_pagador": "176.508.263-K"
+                }
+              ]
+            },
+            "docdate": "2026-10-01",
+            "confidence": 0.99
+          }
+        ],
+        "meta": {
+          "catalogVersion": "b8d602b58811",
+          "models": {
+            "classify": "gemini-3.8-flash",
+            "extract": "gemini-3.8-flash"
+          }
+        }
+      }
+    }
+  ]
+}

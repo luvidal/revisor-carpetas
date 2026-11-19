@@ -1,0 +1,17 @@
+{
+  "sessionId": "20261119-1706",
+  "createdAt": "2026-11-19T20:06:12.752Z",
+  "datasetFingerprint": "9570ce061972e570",
+  "folders": null,
+  "subset": "dificil",
+  "runs": 1,
+  "concurrency": 4,
+  "baseUrl": "https://api.docs2json.cl",
+  "calls": {
+    "planned": 24,
+    "httpCalls": 29,
+    "rateLimited": 0,
+    "serverErrors": 6,
+    "networkErrors": 1
+  }
+}

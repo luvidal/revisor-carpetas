@@ -1,0 +1,215 @@
+{
+  "id": "f06",
+  "subset": "limpio",
+  "title": "Falta la liquidación de octubre",
+  "referenceDate": "2026-11-16",
+  "applicant": {
+    "name": "Sebastián Andrés Castillo Bravo",
+    "rut": "117.556.018-8"
+  },
+  "files": [
+    {
+      "file": "cedula.png",
+      "mimeType": "image/png",
+      "rendering": "imagen PNG",
+      "documents": [
+        {
+          "doctype": "cedula-identidad",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2022-07-29",
+          "fields": {
+            "rut": "117.556.018-8",
+            "nombres": "SEBASTIÁN ANDRÉS",
+            "apellidos": "CASTILLO BRAVO",
+            "nacionalidad": "CHILENA",
+            "sexo": "M",
+            "fecha_nacimiento": "1990-12-01",
+            "fecha_emision": "2022-07-29",
+            "fecha_vencimiento": "2032-07-29"
+          }
+        }
+      ]
+    },
+    {
+      "file": "liquidacion-2026-09.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "liquidaciones-sueldo",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-09-01",
+          "fields": {
+            "empleador": "Transportes Cordillera Sur SpA",
+            "nombre": "Sebastián Andrés Castillo Bravo",
+            "rut": "117.556.018-8",
+            "periodo": "2026-09",
+            "dias_trabajados": 30,
+            "fecha_ingreso": "2018-05-02",
+            "cargo": "Conductor",
+            "institucion_previsional": "AFP Litoral",
+            "institucion_salud": "Fonasa",
+            "base_imponible": 1120000,
+            "base_tributable": 907088,
+            "haberes": [
+              {
+                "label": "Sueldo base",
+                "value": 820000
+              },
+              {
+                "label": "Gratificación legal",
+                "value": 205000
+              },
+              {
+                "label": "Horas extras",
+                "value": 95000
+              },
+              {
+                "label": "Colación",
+                "value": 40000
+              }
+            ],
+            "descuentos": [
+              {
+                "label": "Cotización AFP Litoral 11,41%",
+                "value": 127792,
+                "legalType": "afp"
+              },
+              {
+                "label": "Salud Fonasa 7%",
+                "value": 78400,
+                "legalType": "salud"
+              },
+              {
+                "label": "Seguro de cesantía 0,6%",
+                "value": 6720,
+                "legalType": "cesantia"
+              },
+              {
+                "label": "Impuesto único 2a categoría",
+                "value": 0,
+                "legalType": "impuesto"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "certificado-afp.pdf",
+      "mimeType": "application/pdf",
+      "rendering": "PDF vectorial",
+      "documents": [
+        {
+          "doctype": "cotizaciones-afp",
+          "pages": {
+            "start": 1,
+            "end": 1
+          },
+          "docdate": "2026-10-01",
+          "fields": {
+            "afp": "AFP Litoral",
+            "nombre": "Sebastián Andrés Castillo Bravo",
+            "rut": "117.556.018-8",
+            "periodo_desde": "11-2025",
+            "periodo_hasta": "10-2026",
+            "folio_certificacion": "LIT-2026-0114205",
+            "codigo_validador": "H2J9-PL55",
+            "meses_laguna": 0,
+            "lagunas_largas": 0,
+            "empleador_anterior": null,
+            "cotizaciones": [
+              {
+                "periodo": "11-2025",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "12-2025",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "01-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "02-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "03-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "04-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "05-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "06-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "07-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "08-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "09-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              },
+              {
+                "periodo": "10-2026",
+                "tipo": "normal",
+                "monto": 127792,
+                "rut_pagador": "176.287.441-1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "type": "documento_faltante",
+      "doctype": "liquidaciones-sueldo",
+      "detail": "Solo trae la liquidación de septiembre de 2026; falta la de octubre de 2026."
+    }
+  ],
+  "expectedDecision": "pedir_documento",
+  "decisionReason": "Falta una de las dos liquidaciones exigidas; se pide la de octubre."
+}
